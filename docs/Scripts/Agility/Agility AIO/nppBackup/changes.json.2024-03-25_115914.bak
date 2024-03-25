@@ -1,15 +1,5 @@
 [
-	{
-	"date": "2024-03-25 12:05pm",
-        "title": "v1.0-r2",
-        "items": [
-			"Changed banking location to Archaeology guild",
-			"Adjusted Nav if AIO = Enabled (Gnome agility -> seers -> barbarian outpost agility",
-			"*previously would try to take shortcut north of Gnome agility without required level",
-			"Added food count to console printout"
-        ]
-    },
-	{
+{
 	"date": "2024-03-24 5:55am",
         "title": "v1.0-r1",
         "items": [

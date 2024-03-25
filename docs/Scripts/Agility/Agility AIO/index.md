@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Agility AIO" version="v0.01-1" author="KBD" skill="Agility">
+<TopBanner title="Agility AIO" version="v1.0-r2" author="KBD" skill="Agility">
 </TopBanner>
 
 :::hidden
@@ -31,21 +31,18 @@ import changes from './changes.json'
 - Agility Pyramid
 - Penguin Agility Course
 - Anachronia: Beginner island travel
-- Barbarian Outpost Agility Course
 - Agility Arena - High-level obstacles
 - Ape Atoll Agility Course
 - Anachronia: Novice island travel
 - Wilderness Agility Course
 - Werewolf Agility Course
 - Statues in the Bandos Throne Room
-- Het's Oasis Agility Course
 - Anachronia: Advanced island travel
 - Hefin Serenity Posts
 - Hefin Agility Course
 - Dorgesh-Kaan Agility Course
-- Advanced Gnome Stronghold Course
 - Anachronia: Island-wide agility Course
-- Advanced Barbarian Outpost Course
+
 
 </details>
 
@@ -66,6 +63,10 @@ import changes from './changes.json'
 <details>
 <summary> Finished Courses & Activities</summary>
 - Gnome Agility Course
+- Barbarian Outpost Agility Course
+- Het's Oasis Agility Course
+- Advanced Barbarian Outpost Course
+- Advanced Gnome Stronghold Course
 
 </details>
 
