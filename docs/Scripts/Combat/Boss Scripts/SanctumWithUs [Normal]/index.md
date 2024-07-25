@@ -63,25 +63,22 @@ import changes from './changes.json'
 
 :::
 <ContentBlock title="Requirements">
-<details>
-<summary><strong>Action Bar Example</strong></summary>
 
-</details>
 
 
 > **The requirements here are required to take it on, make sure you meet those listed.**
-> - T95 Necromancy Weapons, ( T90 and lower are in the works. )
-> - Curses with access to soulsplit,  ( Regular prayers is in the works. )
+> - T90+ Necromancy Weapons
 > - Dive ability unlocked.
 > - 99+ Necromancy and all necromancy abilities and incantations unlocked from the well of Souls.
 > - Overloads potions i would not recommened anything lower.
-> - Necro zuk cape.
 > - Plenty of PVM supplys. (Blubbers,Brews,Overloads,Adrenpots,Prayer,Runes)
 
 <ContentBlock title="Optional Requirements">
 
 
 > **Having all Possible requirements ticked off will ensure a much better kill and result from this script**
+> - Please note rotations with pre t95 Rotations are not fully optimal expect slightly slower results then advertised.
+> - Zuk Cape
 > - Essence of Finalty with the Death Grasp Ability added.
 > - Vulnerability bomb.
 > - Disruption shield and lunar spellbook swap.
@@ -108,10 +105,20 @@ import changes from './changes.json'
 > - Make sure to resave abiltys after changing script settings.
 > - Please make sure all mandatory abiltys are on your bar.
 > - Please make sure any abiltys you opt in for is also on your bar.
+
+>- CURSES_________
 > - Quick Prayers 1 set to Protect from melee and T95/T99 Prayer
 > - Quick Prayers 2 set to Protect from range and T95/T99 Prayer
 > - Quick Prayers 3 set to Protect from magic and T95/T99 Prayer
 > - Quick Prayers 4 set to Soulsplit and T95/T99 Prayer
+
+> - STANDERD PRAYERS_________
+> - Quick Prayers 1 set to Protect from melee and offensive Prayer
+> - Quick Prayers 2 set to Protect from range and T95/T99 Prayer
+> - Quick Prayers 3 set to Protect from magic and T95/T99 Prayer
+> - Quick Prayers 4 set to Soulsplit and T95/T99 Prayer
+> - Your offensive prayer should ideally be Sancity && the new prayer Divine Rage (Its cheap buy it.)
+
 > - Below if ur confused on how to do
 
 ![quickprayer](quickprayer.gif)

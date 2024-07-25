@@ -1,5 +1,22 @@
 [
-
+    {
+        "date": "2024-07-25",
+        "title": "v1.0.1",
+        "items": [
+            "Regular prayers added.",
+            "QP1 = Melee QP2 = Range QP3 = Mage QP4 = Mage < quick prayer setup needed for normal prayers.",
+            "Toggle for using t95 equipment. (Allows lower tiers to be used.)",
+            "Toggle for using Zuk cape.",
+            "Lord of bones added.",
+            "Vengeance added.",
+            "Can disable vuln on the boss 2 obelisks and boss 3 dogs to save bombs.",
+            "Added Ritual shard support.",
+            "Fixed Worldhop.",
+            "Fixed missing variables on the lootchest for boss1&2.",
+            "Fixed defensive overlap if using disrupt shield.",
+            "Option to bank after 2nd boss (For low level accounts that need more food)."
+        ]
+    },
     {
         "date": "2024-07-24",
         "title": "v1.0.0",
