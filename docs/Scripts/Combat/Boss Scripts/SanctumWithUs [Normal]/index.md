@@ -114,9 +114,9 @@ import changes from './changes.json'
 
 > - STANDERD PRAYERS_________
 > - Quick Prayers 1 set to Protect from melee and offensive Prayer
-> - Quick Prayers 2 set to Protect from range and T95/T99 Prayer
-> - Quick Prayers 3 set to Protect from magic and T95/T99 Prayer
-> - Quick Prayers 4 set to Soulsplit and T95/T99 Prayer
+> - Quick Prayers 2 set to Protect from range and offensive Prayer
+> - Quick Prayers 3 set to Protect from magic and offensive Prayer
+> - Quick Prayers 4 set to Protect from magic and offensive Prayer
 > - Your offensive prayer should ideally be Sancity && the new prayer Divine Rage (Its cheap buy it.)
 
 > - Below if ur confused on how to do
