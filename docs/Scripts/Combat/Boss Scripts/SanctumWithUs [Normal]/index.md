@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="SanctumWithUs [Normal] " version="v1.0" author="Pizzanova" skill="Necromancy">
+<TopBanner title="SanctumWithUs [Normal] " version="v1.3" author="Pizzanova" skill="Necromancy">
 </TopBanner>
 
 :::hidden
