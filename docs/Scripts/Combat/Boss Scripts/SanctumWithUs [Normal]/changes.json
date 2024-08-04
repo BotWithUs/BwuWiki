@@ -1,5 +1,18 @@
 [
     {
+
+        "date": "2024-07-29",
+        "title": "v1.3",
+        "items": [
+            "Fixed split soul not been conditonal allowing the script to not work for people without curses.",
+"Fixed bank after 2nd boss double tp issue,",
+"Fixed broken logic causing issues at boss 2 & 3 with high view distance",
+"Slight optimisations",
+" Added lots of toggles to save runes."
+        ]
+    },
+    {
+
         "date": "2024-07-25",
         "title": "v1.0.1",
         "items": [
