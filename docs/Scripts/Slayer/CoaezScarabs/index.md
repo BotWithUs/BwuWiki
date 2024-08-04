@@ -82,6 +82,7 @@ import changes from './changes.json'
 3. Navigate to `C:\Program Files\Redis`.
 4. Shift + Right-click in the folder and select "Open PowerShell window here".
 5. Type in `./redis-server.exe` and press Enter.
+6. Run the script.
 
 #### Compiling Redis on Windows
 
@@ -108,9 +109,9 @@ import changes from './changes.json'
 <details>
 <summary>Before starting the script</summary>
 - Make sure Redis is installed and running on your local machine.
-- Clone the repository and set up your development environment.
+- Clone the repository and set up your environment.
 - Ensure all dependencies are installed.
-- Run the script from your bot client or development environment.
+- Run the script from your bot client. The script won't be able to to start if redis is not started.
 - Configure the script settings as needed:
     - Run Duration
     - World Hop Delay
