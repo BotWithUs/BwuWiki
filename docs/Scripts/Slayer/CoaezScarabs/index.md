@@ -109,8 +109,6 @@ import changes from './changes.json'
 <details>
 <summary>Before starting the script</summary>
 - Make sure Redis is installed and running on your local machine.
-- Clone the repository and set up your environment.
-- Ensure all dependencies are installed.
 - Run the script from your bot client. The script won't be able to to start if redis is not started.
 - Configure the script settings as needed:
     - Run Duration
