@@ -113,7 +113,7 @@ import changes from './changes.json'
 <details>
 <summary><strong>Action Bar Setup</strong></summary>
 
-![Action Bar](Actionbar.png)
+![Action Bar](ActionBar.png)
 
 > - Please make sure all mandatory abilities are on your bar.
 > - Please make sure all optional abilities if options are checked.
