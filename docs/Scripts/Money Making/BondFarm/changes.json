@@ -2,9 +2,17 @@
 
   {
     "date": "2024-06-01",
-    "title": "v1.1.0",
+    "title": "v1.1",
     "items": [
       "Release"
+    ]
+
+  },
+  {
+    "date": "2024-06-02",
+    "title": "v1.2",
+    "items": [
+      "Fixed using bond when stuck, updated requirements"
     ]
 
   }

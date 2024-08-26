@@ -36,7 +36,7 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 > - A New Account
-
+> - Membership
 </ContentBlock>
 
 :::hidden
