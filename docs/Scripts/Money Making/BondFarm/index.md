@@ -149,11 +149,13 @@ import changes from './changes.json'
 
 <ContentBlock title="GUI">
 
-![Example](1.png)  
-![Example](2.png)  
+![Example](1.PNG)  
+![Example](2.PNG)  
 ![Example](3.png)  
 ![Example](4.png)  
-![Example](5.png)
+![Example](5.PNG)
+![Example](6.PNG)
+![Example](7.PNG)
 
 </ContentBlock>
 
