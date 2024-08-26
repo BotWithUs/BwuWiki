@@ -1,6 +1,6 @@
 ---
 title: Treasure Trails With Us
-description: Trains agility at wilderness agility course.
+description: Completes any type of clue scrolls.
 # Slug is the URL path for this page.
 slug: /TreasureTrailsWithUs
 ---
@@ -52,7 +52,7 @@ import changes from './changes.json'
 
 :::hidden
 
-## Features
+## Settings
 
 :::
 
@@ -80,6 +80,10 @@ import changes from './changes.json'
 > - If use meerkats option is on you need to have meerkats pouch & scrolls in your preset.
 > - If no path was found for a step you need to open that clue and see what your missing probably either a light source or trollhiem access (If no spell to teleport to trollhiem was found you need to have rock climbing boots in your inventory/equipment).
 > - If your doing tetracompasses simply have any amount of them (powered) in your inventory and start the script.
+> - If the script logs you out saying "Your preset is missing any or all required items." in console then your missing meerkats pouch or scrolls 
+> - If it doesn't say the above ^ msg then it will tell you what items your missing.
+> example presets
+>  - I have provided example presets for each clue type but nav supports portable fairy rings and archaelogy teleports.
 
 <details>
 <summary>Easy clues</summary>
@@ -88,6 +92,9 @@ import changes from './changes.json'
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
 >
+<div align="center">
+![Example](med-easy.png)
+</div>
 <details>
 <summary>Required Items(for emote clues)</summary>
 
@@ -175,8 +182,10 @@ import changes from './changes.json'
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
 >  - You need a rope in your preset for Baxtorian Falls step.
-
-
+>
+<div align="center">
+![Example](med-easy.png)
+</div>
 <details>
 <summary>Required Items(for emote clues)</summary>
 
@@ -227,6 +236,9 @@ import changes from './changes.json'
 >  - Any requirement that needs partial completion of a quest will require the completion of the quest for this script.
 >  - If not using globetrotter outfit for emote clues YOU NEED TO HAVE SPACE IN YOUR PRESET FOR THE ITEMS IT REQUIRES TO WITHDRAW (and enough inventory space to remove all equipped items if needed).
 >
+<div align="center">
+![Example](hards.png)
+</div>
 <details>
 <summary>Required Items</summary>
 
@@ -266,6 +278,9 @@ import changes from './changes.json'
 >  - A Light source in your preset (only sapphire lantern and emeral lantern are handled)
 >  - If your creating sapphire lantern, buy bullseye lantern (third one on GE that says "A sturdy steel lantern."), sapphire, then use the sapphire on the bullseye lantern.
 >
+<div align="center">
+![Example](elites.png)
+</div>
 <details>
 <summary>Required Items(for emote clues)</summary>
 
@@ -283,6 +298,12 @@ import changes from './changes.json'
 >  - If you have completed 'Gower Quest' you need to have Disk of Returning in your preset.
 >  - Your inventory needs to have atleast 3 free spaces.
 >  - You cannot put skilling clue items in your preset only teleport items allowed.
+>  - A Light source in your preset (only sapphire lantern and emeral lantern are handled)
+>  - If your creating sapphire lantern, buy bullseye lantern (third one on GE that says "A sturdy steel lantern."), sapphire, then use the sapphire on the bullseye lantern.
+>
+<div align="center">
+![Example](masters.png)
+</div>
 
 <details>
 <summary>Skilling Steps Additional requirements</summary>
