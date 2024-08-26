@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - 2 days sub for 3 Coins.
+> - 30 days sub for 10 Coins.
 
 </ContentBlock>
 
