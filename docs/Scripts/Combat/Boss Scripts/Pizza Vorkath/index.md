@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - $120 USD / month (not including client access)
+> - $90 USD / month (not including client access)
 :::danger Limitations
 - **This is an early access, please be fully aware of that. There is a very high chance you WILL encounter bugs**
 :::
@@ -41,7 +41,7 @@ import changes from './changes.json'
 > - **Vorkath Hardmode Script**: Kills runescapes newest boss vorkath on hardmode loots and stacks chests for later opening!
 > - **Customizable Settings**: Many settings to try and get it perfect for your account.
 > - **Safety Features**: Various failsafes to ensure you don't get stuck. (If you found ur account logged out and cant find why read list below.)
-> - **Current GP Rates**: Currently ~80m / hr on average with current GE prices (Note that the vorkath scale, spikes, and book are way above GE Value so its more like ~90m+ / hr)
+> - **Current GP Rates**: Currently ~80m / hr on average with current GE prices 
 > - **Average Kill Times**: averaging 3:30 - 3:50 killtimes using BIS gear + Perks. It Averages around ~14 Kills an hour, will be around 4 Minute average with 13 Kills an hour if missing some of the opt ins / not BIS.
 <details>
 <summary><strong>Safety Features Details</strong></summary>

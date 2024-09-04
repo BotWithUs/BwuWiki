@@ -6,5 +6,28 @@
         "items": [
             "Release"
         ]
+    },
+    {
+        "date": "2024-04-26",
+        "title": "v2.0.0",
+        "items": [
+            "Attempt to fix the pathing issues happening with the script",
+            "Added support for Presets 1 - 18 (instead of the old 1 - 10)",
+            "Added support for Action bar 1 - 18 (instead of the old 1 - 10)",
+            "Prayer flask support"
+        ]
+    },
+    {
+        "date": "2024-06-06",
+        "title": "v2.1.0",
+        "items": [
+            "Fixed stats tab when lobbying",
+            "Fixed pathing errors when using afk spot 2",
+            "Added multiple Bank locations (War's retreat, Max guild, Grand Exchange)",
+            "Added support to recharge blood amulet of fury",
+            "Added support for scrimshaw of sacrifice",
+            "Added Torstol & Lantadyme incense stick support"
+        ]
     }
+
 ]

@@ -75,6 +75,9 @@ import changes from './changes.json'
 > - Uses Familiars, such as BoB or DPS.
 > - Eats from BoB.
 > - Resummons familiars if time left < 10 mins.
+> - <span style={{ color: 'yellow' }}>**NEW**</span> Uses Vampyrism Aura
+> - <span style={{ color: 'yellow' }}>**NEW**</span> Buys and Uses Tier 2 Aura refresh on Vampyrism Aura if **enabled**
+
 </ContentBlock>
 
 :::hidden
@@ -85,11 +88,8 @@ import changes from './changes.json'
 
 <ContentBlock title="UI Game Configuration">
 > - Render Distance : medium.
-> - Face NORTH in **Minimap** before starting script.
 > - Dagannoths Kings Boss Instance teleport on the left portal.
-> - Make portal visible on screen before starting the script.
 > - War's Retreat teleport somewhere in action bar.
-> - Soul Split somewhere in action bar.
 > - Revolution Bars are setuped individually, how you want you character to perform.
 > - Make sure in Combat Options you are enabled threshold and ultimate ability autocast.
 > - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar if you are planning to use.
@@ -103,14 +103,16 @@ import changes from './changes.json'
 
 <ContentBlock title="Script Configuration">
 > - Script has a configuration tab. Check it out and it's **mandatory** to fill it as **precise** as **possible**.
+> - Script configuration can be saved and loaded. On client restart it will not load last configuration due to bot client funcionality.
 <details>
 <summary>Configuration Tab Example with Explanation (My personal Settings)</summary>
 
-![Example](configuration.png)
+![Example](configuration1.png)
+![Example](configuration2.png)
 
 > - Super Restore Potion - Check if you are planning to use it. **RECOMMENDED**
 > - Super Prayer Renewal Potion - Check if you are planning to use it, if you are not planning/able to use it, leave it unchecked.
-> - Overload/Elder Overload Potion - Check which you are going to use, if none - do not check any.
+> - Overload/Supreme/Elder Overload Potion - Check which you are going to use, if none - do not check any.
 > - Weapon Poison Potion - Optional.
 > - Equipment Pocket Slot - Mainly used for books: Wen/Jas/Grimoire/Illumination etc, as long it has "Activate/Deactivate" option.
 > - Food - **HIGHLY RECOMMENDED**, it will pop a new text insertion in which you have to write **PRECISE** name of a food, which has option **EAT**.
@@ -125,6 +127,12 @@ import changes from './changes.json'
 >>> - Ripper Demon
 >>> - Kalgerion Demon
 >>> - Abyssal Demon
+> - Aura Support :
+>> - <span style={{ color: 'yellow' }}>**NEW**</span> Uses Vampyrism Aura
+>> - <span style={{ color: 'yellow' }}>**NEW**</span> Use tier 2 refreshes
+>>> - Script is capable of determining if you have refreshes, and uses if you have **enabled** this option
+>> - <span style={{ color: 'yellow' }}>**NEW**</span> Buy tier 2 refreshes
+>>> - Script is capable of buying tier 2 refreshes if you have enough Marks of War and if you have **enabled** this option. It does that on every route start at War's Retreat.
 
 </details>
 
@@ -138,14 +146,13 @@ import changes from './changes.json'
 
 <ContentBlock title="How To Start Botting">
 > - Make sure you are in **War's Retreat**.
-> - Make sure your camera facing **NORTH**.
 > - Make sure you are standing somewhere new the bank/altar/campfire.
 > - Make sure Dagannoth Kings Boss Instance teleport is active on the left.
 > - A bit **zoom out** camera, to be able to see left portal.
 > - Configure script in **Configuration** and **Loot** tabs as **precise** all possible.
 > - Have atleast 5 free inventory spaces for loot.
 > - Have some food to **jumpstart** the script at bosses.
-> - Have 150k coins in your backpack for instance creation.
+> - Have 150k coins in your backpack for instance creation. (recommendation have more for longer sessions)
 > - **Soul Split** and **Protection Prayers** has to be somewhere in Action Bar.
 > - Happy Botting.
 </ContentBlock>
@@ -172,7 +179,7 @@ import changes from './changes.json'
 > - 2x Super Prayer Renewal Potions.
 > - 3x Super Restores
 > - 4x Sailfishes
-> - Notepaper
+> - Notepaper (mandatory)
 > - Sping cleaner (OPTIONAL)
 
 </details>
@@ -223,10 +230,14 @@ import changes from './changes.json'
 
 
 
-:::danger Discomfort
+:::danger Little more
 
 - **Please read "General Information" tab in script Settings before trying to START it**
-- **You will see two buttons : START/STOP. After pressing on the BAR on top of your screen, the script won't run, you need to press start in the Settings tab**
+- **You will see two buttons : CONTINUE/PAUSE.**:
+> - Continue button will resume script if paused.
+> - Pause button will pause script if it's running.
+> - Top bar "Play" button will start the bot. Start can be done from anywhere, due to using Teleport to War's from Ability bar.
+> - If something went wrong, please use top bar to stop the script, refresh and start it again, it will start from beginning (tp to war's).
 ![Example](topBarRun.png)
 ![Example](settingsStartButton.png)
 :::

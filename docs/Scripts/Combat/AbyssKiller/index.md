@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="AbyssKiller" version="v1.0.0" skill="Attack">
+<TopBanner title="AbyssKiller" author="louisdnb"  version="v2.1.0" skill="Attack">
 </TopBanner>
 
 :::hidden
@@ -35,15 +35,30 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
-> - Banking (including recharging Divine charges)
 > - Walks to Abyss and checks for a free spot
 > - Auto hopping worlds when spots are taken
 > - PVP safety check
 > - Logout on script error
-> - Use any Overload
 > - Support any food item
-> - Use Soul Split
-> - Support for Super restores, Prayer potions and Blessed flask
+> - Optimal AFK spot
+> - Automatically set Main Action Bar
+> - Banking:
+>   - Bank locations: War's Retreat, Max guild, Grand Exchange
+>   - Load preset
+>   - Recharge Divine charges
+>   - Recharge Blood amulet of fury
+> - Prayer Support:
+>   - Soul Split, Deflect Magic, Deflect Ranged, Deflect Melee, Protect from Magic, Protect from Ranged, Protect from melee
+>   - Super restore, Prayer potion, Prayer flask, Blessed flask
+> - Stat boosting potions:
+>   - Overload, Super Warmaster's potion, Super Melee potion, Grand Ranging potion, Grand Magic potion, Extreme Magic, Extreme Ranging, Extreme Necromancy 
+> - Looting: currently will click loot all in area loot interface
+> - Misc Support:
+>   - Scrimshaw of Sacrifice
+>   - Torstol incense sticks
+>   - Lantadyme incense sticks
+
+
 
 </ContentBlock>
 
@@ -55,18 +70,34 @@ import changes from './changes.json'
 <ContentBlock title="Requirements">
 
 - Edgeville lodestone unlocked
-- War's Retreat unlocked
 - Opted out of PVP
-- Divine charges in the bank
+- Correct Prayer book (when Use Prayer enabled)
+- Area Loot enabled (when Use Looting System enabled)
 
 - Action bar should contain the following:
-    - War's Retreat Telport
-    - Soul Split
+    - Bank teleport:
+        - War's Retreat: War's Retreat Teleport
+        - Max guild: Max guild Teleport
+        - Grand Exchange: Ring of Fortune or Luck of the Dwarves
+    - Selected Prayer
+    - Scrimshaw of Sacrifice (optional)
 
 - A preset containing the following:
-    - Overload (when Use overload is enabled)
-    - Food (when Eat food is enabled)
-    - Super restore, Prayer potion or Blessed flask (Depending on prayer restoration choice)
+    - Stat boosting potion (optional)
+    - Food (optional)
+    - Prayer restore item (optional)
+    - Torstol incense sticks (optional)
+    - Lantadyme incense sticks (optional)
+    - Scrimshaw of Sacrifice (Equipped) (optional)
+    - Ring of Fortune or Luck of the Dwarves (Equipped) (when using Grand Exchange banking)
+
+- Bank should contain the following:
+    - Recharge Divine Charges: Divine Charges
+    - Recharge Blood Fury: Atleast 1000 Blood runes
+    - Food (optional)
+    - Prayer restore item (optional)
+    - Scrimshaw of Sacrifice (inactive)
+        - This is incase the scrimshaw in your preset runs out
 
 </ContentBlock>
 
@@ -80,9 +111,13 @@ import changes from './changes.json'
 <details>
 <summary>Before starting the script</summary>
 - Make a preset containing:
-    - Overload (when Use overload is enabled)
-    - Food (when Eat food is enabled)
-    - Super restore, Prayer potion or Blessed flask (Depending on prayer restoration choice)
+    - Stat boosting potion (optional)
+    - Food (optional)
+    - Prayer restore item (optional)
+    - Torstol incense sticks (optional)
+    - Lantadyme incense sticks (optional)
+    - Scrimshaw of Sacrifice (Equipped) (optional)
+    - Ring of Fortune or Luck of the Dwarves (Equipped) (when using Grand Exchange banking)
 - Select the settings you want to use.
 - Start the script.
 
@@ -91,16 +126,28 @@ import changes from './changes.json'
 <details>
 <summary>UI Settings Guide</summary>
 
-- Settings
-    - Use Overload
-    - Preset Number
+- Combat:
+    - Main Action Bar: Main Action Bar you want to use
+    - Use Optimal AFK Spot: stand in the optimal AFK spot
+    - Use Stat Boosting Potion
+        - Stat Boosting Potion: select the potion you want to use
     - Eat Food
-    - Use Soul Split
-        - Min Prayer Points
-        - Prayer Restore
-- Debug
-    - Min Script Delay: this will change the minimum delay in the onLoop function.
-    - Max Script Delay: this will change the maximum delay in the onLoop function.
+        - Heal Percent: when lifepoints hit below this percent, script will eat food
+    - Use Prayer
+        - Prayer: select the Prayer you want to use
+        - Min Prayer Points: the minimum Prayer points before using a Prayer restore item
+        - Prayer Restore: select the Prayer restore item you want to use
+- Bank:
+    - Preset Number: Bank preset number that should be loaded
+    - Bank Location: bank teleport location
+    - Recharge Divine Charges: recharge divine charges when they run out
+    - Recharge Blood fury: recharge Blood amulet of fury when charge percent is under 5.0%
+- Looting:
+    - Use Looting System: this will click loot all button in the area loot interface
+- Misc:
+    - Use Scrimshaw of Sacrifice: Activate/Deactivate Scrimshaw in combat and equip a new one from the bank when it runs out
+    - Use Torstol Sticks: keeps Torstol sticks at max potency and the timer above 1 minute
+    - Use Lantadyme Sticks: keeps Lantadyme sticks at max potency and the timer above 1 minute
 
 </details>
 

@@ -1,50 +1,25 @@
 [
     {
+        "date": "2024-06-08",
+        "title": "v2.0.0",
+        "items": [
+            "Release v2.0.0",
+            "Vampyrism Aura support",
+            "Aura tier 2 refresh support",
+            "Aura tier 2 buying support",
+            "Major fixes in combat"
+        ]
+    },
+    {
         "date": "2024-05-23",
         "title": "v1.1.0",
         "items": [
-            "Release v1.1.0"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.6",
-        "items": [
-            "Added mob killing counter"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.5",
-        "items": [
-            "Ability to eat food from BoB"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.5",
-        "items": [
-            "General code improvements"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.4",
-        "items": [
-            "Fixed bug with armour switching"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.3",
-        "items": [
-            "Added BoB and Attack familiar support"
-        ]
-    },
-    {
-        "date": "2024-05-23",
-        "title": "v1.0.2",
-        "items": [
+            "Release v1.1.0",
+            "Added mob killing counter",
+            "Ability to eat food from BoB",
+            "General code improvements",
+            "Fixed bug with armour switching",
+            "Added BoB and Attack familiar support",
             "Added regular/curse protection prayers support for accounts which doesn't have split soul or do not sustain hp with soul split"
         ]
     },
