@@ -104,7 +104,7 @@ FarmWithUs has support for the majority of tree, flower, herb and normal allotme
 
 <ContentBlock title="UI Overview">
 <div align="center">
-![Example](ui.PNG)
+![Example](ui.png)
 </div>
 > - When clicking **"Add seed to all applicable patches"**, it will automatically add the selected seed to the selected patch type. For example, selecting Torstol seed and any herb patch (Ardougne herb for example) will add it to *all* herb patches. You can then remove the ones you don't meet the requirements for. Or, do it manually. Fill ya boots.
 # 
