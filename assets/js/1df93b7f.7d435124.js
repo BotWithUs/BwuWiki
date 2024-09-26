@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbotwithuswiki=self.webpackChunkbotwithuswiki||[]).push([[8552],{86048:(i,t,n)=>{n.r(t),n.d(t,{default:()=>c});var u=n(29024);n.p;var r=n(55592),s=n(17624);function e(){return(0,s.jsx)(r.YJ,{to:"/introduction"})}function c(){return(0,s.jsx)(u.c,{children:(0,s.jsx)("main",{children:(0,s.jsx)(e,{})})})}}}]);
