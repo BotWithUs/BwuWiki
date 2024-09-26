@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="ArchGlacorNM" version="v1.0.0" author="MonVardsDraguns" skill="Necromancy"skill=" Necromancy">
+<TopBanner title="ArchGlacorNM" version="v1.0.0" author="MonVardsDraguns" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -96,8 +96,7 @@ import changes from './changes.json'
 - Buys 50 Weapon poison +++
 - Buys 10 Manuscript of Wen/Whetstone
 
-  :::hidden
-  </ContentBlock>
+</ContentBlock>
 
 <ContentBlock title="Set up webhook">
 
@@ -116,6 +115,7 @@ import changes from './changes.json'
  </ContentBlock>
 
 ## GUI
+<ContentBlock title="Set">
 
 ![ArchGlacorNMM1.PNG](ArchGlacorNMM1.PNG)
 ![ArchGlacorNM2.PNG](ArchGlacorNM2.PNG)
