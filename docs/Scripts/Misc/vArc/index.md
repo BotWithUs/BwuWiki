@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="vArc" version="v0.0.1" author="Vopori" skill="Woodcutting">
+<TopBanner title="vArc" version="v0.0.3" author="Vopori" skill="Woodcutting">
 </TopBanner>
 
 :::hidden
