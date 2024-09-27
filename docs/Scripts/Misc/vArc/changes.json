@@ -1,10 +1,19 @@
 [
 
      {
-        "date": "2024-01-26",
-        "title": "v1.0.0",
+        "date": "2024-09-25",
+        "title": "v0.0.1",
         "items": [
-            "Release"
+            " Initial Release"
+        ]
+    },
+    {
+        "date": "2024-09-26",
+        "title": "v0.0.2",
+        "items": [
+            "Added support for divine blessing & catalyst of alteration caputring.",
+            "Redo of treasure chest & supply handling - should now scan for chests everytime it scans for resources to stop missing them.",
+            "Support for resource tracking with porter buffs."
         ]
     }
 ]
