@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="vArc" version="v0.0.1" author="Vopori" skill="Woodcutting">
+<TopBanner title="vArc" version="v0.0.3" author="Vopori" skill="Woodcutting">
 </TopBanner>
 
 :::hidden
@@ -51,6 +51,10 @@ import changes from './changes.json'
 > - ONLY Long Voyages are currently supported.
 > - Ensure player starts script in large island with the uncharted island selection screen already set on your rowboat.
 > - Script will also not currently handle switching outfits/items per resource. Ensure your loadout has a decent skilling spread.
+> - Will automatically send a message to your discord server when a new island is started with your resource counts.
+> - XP Tracking for all Arc Skills.
+> - Support for Green Maps & Ability to Logout when out of maps.
+> - Banking Presets - Will use your selected preset when inventory is full.
 
 </ContentBlock>
 
@@ -91,6 +95,21 @@ import changes from './changes.json'
 ![UI Settings](ui.png)
 
 > - Ensure your UI settings are set to the minimum with maximum render distance.
+
+</details>
+
+<details>
+<summary>Discord Webhook Setup</summary>
+> - First, you need to create a Discord channel to receive vArc notifications.
+![Discord Webhook Setup1](screen1-my-channel.jpg)
+> - Log in to Discord, open your server, open the Discord channel you want to receive AidaForm notifications. From the channel menu, select Edit channel (click the small cog button).
+![Discord Webhook Setup2](screen2-webhooks.jpg)
+> - On the left side panel click on Webhooks menu item.
+![Discord Webhook Setup3](screen3-create-webhook.jpg)
+> - Click the Create Webhook button, fill in the Webhook Name, select a channel from the drop-down menu you’d like to send responses, and optionally, edit the avatar of your choice.
+![Discord Webhook Setup4](screen4-save.jpg)
+> - Scroll down a bit, and you’ll find the Webhook URL that needed to be provided to vARc settings window. Simply, paste it into the Webhook URL field.
+
 
 </details>
 
