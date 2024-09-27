@@ -107,9 +107,11 @@ import changes from './changes.json'
 
 ## Discord Webhook Tutorial
 
+:::
+
 <ContentBlock title="Set up webhook">
 
-> - Create a discord server
+<div align="center">
 
   ![discordwebhooktutorial1.PNG](discordwebhooktutorial1.PNG)
   ![discordwebhooktutorial2.PNG](discordwebhooktutorial2.PNG)
@@ -120,6 +122,8 @@ import changes from './changes.json'
   ![discordwebhooktutorial7.PNG](discordwebhooktutorial7.PNG)
   ![discordwebhooktutorial8.PNG](discordwebhooktutorial8.PNG)
 
+</div>
+
 </ContentBlock>
 
 :::hidden
@@ -128,7 +132,9 @@ import changes from './changes.json'
 
 :::
 
-<ContentBlock title="Set">
+<ContentBlock title="GUI">
+
+<div align="center">
 
 ![ArchGlacorNMM1.PNG](ArchGlacorNMM1.PNG)
 ![ArchGlacorNM2.PNG](ArchGlacorNM2.PNG)
@@ -136,6 +142,8 @@ import changes from './changes.json'
 ![ArchGlacorNM4.PNG](ArchGlacorNM4.PNG)
 ![ArchGlacorNM5.PNG](ArchGlacorNM5.PNG)
 ![discordwebhookexample.PNG](discordwebhookexample.PNG)
+
+</div>
 
 </ContentBlock>
 
