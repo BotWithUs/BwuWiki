@@ -15,5 +15,15 @@
             "Redo of treasure chest & supply handling - should now scan for chests everytime it scans for resources to stop missing them.",
             "Support for resource tracking with porter buffs."
         ]
+    },
+    {
+        "date": "2024-09-27",
+        "title": "v0.0.3",
+        "items": [
+            "XP Tracking for all Arc Skills.",
+            "Added discord webhook logging - will automatically send when a new island is started.",
+            "Added support for green maps & ability to logout when out of maps.",
+            "Added banking preset support instead of using deposit-all when full inventory."
+        ]
     }
 ]
