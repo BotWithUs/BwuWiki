@@ -1,10 +1,29 @@
 [
 
      {
-        "date": "2024-01-26",
-        "title": "v1.0.0",
+        "date": "2024-09-25",
+        "title": "v0.0.1",
         "items": [
-            "Release"
+            " Initial Release"
+        ]
+    },
+    {
+        "date": "2024-09-26",
+        "title": "v0.0.2",
+        "items": [
+            "Added support for divine blessing & catalyst of alteration caputring.",
+            "Redo of treasure chest & supply handling - should now scan for chests everytime it scans for resources to stop missing them.",
+            "Support for resource tracking with porter buffs."
+        ]
+    },
+    {
+        "date": "2024-09-27",
+        "title": "v0.0.3",
+        "items": [
+            "XP Tracking for all Arc Skills.",
+            "Added discord webhook logging - will automatically send when a new island is started.",
+            "Added support for green maps & ability to logout when out of maps.",
+            "Added banking preset support instead of using deposit-all when full inventory."
         ]
     }
 ]
