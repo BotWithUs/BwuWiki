@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - $20/Month
+> - $12/Month
 
 </ContentBlock>
 
