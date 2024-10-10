@@ -30,24 +30,35 @@ Make the necessary changes to your scripts using your preferred editor or IDE. G
 
    **If you make additional changes, repeat this step to commit them incrementally.**
 
-### Squash Your Commits
-Once you’ve completed all your changes and committed them, it’s time to squash your commits into a single commit.
+### Merge from 'main'
+Once you’ve completed all your changes and committed them, it’s time to ensure your local repo does not have any merge conflicts with the `main` branch.
 
-1. In **GitHub Desktop** with your `main` branch selected, click **Branch** in the top menu and choose **Squash and Merge into current branch...**.
-2. Select the `feature/your-feature-name` branch as the branch you want to "Squash and Merge into `main`".
-3. GitHub Desktop will prompt you with an option to squash your commits. Choose **Squash and Merge** or a similar option (depending on your version).
-4. Confirm the squash and complete the process.
+1. In **GitHub Desktop** with your `feature/your-feature-name` branch selected, click **Branch** in the top menu and choose **Merge into current branch**.
+2. Select the `main` branch as the base to merge from.
+3. GitHub Desktop may prompt you with an option to squash these commits. If so, choose **Squash and Merge** or a similar option (depending on your version).
+4. Confirm the squash and complete the merge process.
 
-   This will combine all your commits into a single commit, making it easier for the reviewer to see all your changes at once.
+   This will update your branch with the latest changes from the `main` branch, ensuring there are no merge conflicts later on.
 
-### Push the Main Branch
-1. In **GitHub Desktop**, click **Push Origin** in the top toolbar to push your feature branch and squashed commit to the remote repository.
+### Push the Feature Branch
+1. In **GitHub Desktop** with your `feature/your-feature-name` branch selected, click **Push Origin** in the top toolbar to push your feature branch and squashed commit to the remote repository.
+
+### Squash and Merge the Feature Branch into `main`
+Once you’ve pushed your feature branch, you can merge it into the `main` branch:
+
+1. In **GitHub Desktop**, switch back to the `main` branch by selecting it from the branch dropdown.
+2. Click **Fetch Origin** and **Pull** to ensure your `main` branch is up to date with the remote.
+3. Click **Branch > Squash and Merge into Current Branch** from the top menu, then select your feature branch (e.g., `feature/your-feature-name`).
+4. Click **Merge** to merge your changes into `main`.
+
+5. After the merge, click **Push Origin** to push the updated `main` branch to the remote repository.
 
 ### Delete the Feature Branch (Optional)
 Once your feature has been merged, you can delete the feature branch:
 
 1. In **GitHub Desktop**, go to the branch dropdown and select **Delete Branch** from the options for your feature branch.
 2. If you also want to delete the branch from the remote repository, open GitHub in your browser and go to the **Branches** section of your repository, then delete the feature branch there as well.
+
 
 Following this workflow helps ensure that your reviewers can see all your changes in a single commit, making the review process smoother and more efficient.
 
