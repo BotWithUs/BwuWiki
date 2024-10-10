@@ -48,7 +48,7 @@ Once you’ve pushed your feature branch, you can merge it into the `main` branc
 
 1. In **GitHub Desktop**, switch back to the `main` branch by selecting it from the branch dropdown.
 2. Click **Fetch Origin** and **Pull** to ensure your `main` branch is up to date with the remote.
-3. Click **Branch > Merge into Current Branch** from the top menu, then select your feature branch (e.g., `feature/your-feature-name`).
+3. Click **Branch > Squash and Merge into Current Branch** from the top menu, then select your feature branch (e.g., `feature/your-feature-name`).
 4. Click **Merge** to merge your changes into `main`.
 
 5. After the merge, click **Push Origin** to push the updated `main` branch to the remote repository.
