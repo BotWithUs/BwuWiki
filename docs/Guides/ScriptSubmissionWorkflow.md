@@ -30,20 +30,20 @@ Make the necessary changes to your scripts using your preferred editor or IDE. G
 
    **If you make additional changes, repeat this step to commit them incrementally.**
 
-### Squash Your Commits
-Once you’ve completed all your changes and committed them, it’s time to squash your commits into a single commit.
+### Merge from 'main'
+Once you’ve completed all your changes and committed them, it’s time to ensure your local repo does not have any merge conflicts with the `main` branch.
 
-1. In **GitHub Desktop**, click **Branch** in the top menu and choose **Rebase Current Branch**.
-2. Select the `main` branch as the base to rebase against.
-3. GitHub Desktop will prompt you with an option to squash your commits. Choose **Squash and Merge** or a similar option (depending on your version).
-4. Confirm the squash and complete the rebase process.
+1. In **GitHub Desktop** with your `feature/your-feature-name` branch selected, click **Branch** in the top menu and choose **Merge into current branch**.
+2. Select the `main` branch as the base to merge from.
+3. GitHub Desktop may prompt you with an option to squash these commits. If so, choose **Squash and Merge** or a similar option (depending on your version).
+4. Confirm the squash and complete the merge process.
 
-   This will combine all your commits into a single commit, making it easier for the reviewer to see all your changes at once.
+   This will update your branch with the latest changes from the `main` branch, ensuring there are no merge conflicts later on.
 
 ### Push the Feature Branch
-1. In **GitHub Desktop**, click **Push Origin** in the top toolbar to push your feature branch and squashed commit to the remote repository.
+1. In **GitHub Desktop** with your `feature/your-feature-name` branch selected, click **Push Origin** in the top toolbar to push your feature branch and squashed commit to the remote repository.
 
-### Merge the Feature Branch into `main`
+### Squash and Merge the Feature Branch into `main`
 Once you’ve pushed your feature branch, you can merge it into the `main` branch:
 
 1. In **GitHub Desktop**, switch back to the `main` branch by selecting it from the branch dropdown.
