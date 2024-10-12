@@ -141,6 +141,7 @@ import changes from './changes.json'
 
 > - Elder or slave overloads.
 > - Vuln Bombs.
+> - Adrenaline potion
 > - Powerburst of Vitality.
 > - Saradomin Brews and Blue blubbers.
 > - Restores potions.
