@@ -102,16 +102,17 @@ import changes from './changes.json'
 
 
 > **Having all Possible requirements ticked on will ensure a much better kill and result from this script**
-> - Essence of Finality. (Highly recommanded)
-> - Weapon Special Attack. (Highly recommanded)
-> - Ring of Death can be Usefull to clutch P7 (Highly recommanded)
-> - Vuln Bombs. (Highly recommanded)
-> - Darkness. (Highly recommanded)
+> - Essence of Finality. (Highly recommended)
+> - Infernal Puzzle Box. (Highly recommended)
+> - Weapon Special Attack. (Highly recommended)
+> - Ring of Death can be Usefull to clutch P7 (Highly recommended)
+> - Vuln Bombs. (Highly recommended)
+> - Darkness. (Highly recommended)
 > - Limitless.
 > - Life Transfer.
-> - Invoke Death. (Highly recommanded)
+> - Invoke Death. (Highly recommended)
 > - Bonefire
-> - Adrenaline Crystal (Starting at 100% adrenaline for more dps is recommanded)
+> - Adrenaline Crystal (Starting at 100% adrenaline for more dps is recommended)
 > - Zamorak portal is optional (can start the script in front of Zamorak instance)
 
 </ContentBlock>
@@ -128,7 +129,7 @@ import changes from './changes.json'
 ![Action Bar](ActionBar.png)
 
 > - Please make sure all mandatory abilities are on your bar.
-> - Please make sure all optional abilities if options are checked. (Note Darkness, Invoke death, EOF, Weapon Special are highly recommanded for higher enrage) 
+> - Please make sure all optional abilities if options are checked. (Note Darkness, Invoke death, EOF, Weapon Special are highly recommended for higher enrage) 
 
 </details>
 
@@ -169,12 +170,12 @@ import changes from './changes.json'
 ![Spells And Prayers Settings](SpellsAndPrayersSettings.png)
 
 > **Auras Settings**
-> - I recommand Equilibrium if using Occultist's ring if not Mahjarrat
+> - I recommend Equilibrium if using Occultist's ring if not Mahjarrat
 
 ![Auras Settings](AurasSettings.png)
 
 > **Healing Settings**
-> - I recommand 55 For brews / 50 for foods / 90 for excalibur
+> - I recommend 55 For brews / 50 for foods / 90 for excalibur
 
 ![Healing Settings](HealingSettings.png)
 
