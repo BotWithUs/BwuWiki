@@ -66,7 +66,7 @@ import changes from './changes.json'
 
 > - **Supported Potions**: All type of Overloads/Restores/Adrenaline/Weapon Poison/Saradomin brews are supported.
 
-> - **Average Kill Times**: Averaging 7:00 - 10:30. Depending on enrage
+> - **Average Kill Times**: Averaging 6:00 - 8:00. Depending on enrage
 
 > - **Starting the fight**: Script can be started in front of Zamorak entrance if War's portal not unlocked.
 
