@@ -66,7 +66,7 @@ import changes from './changes.json'
 
 > - **Supported Potions**: All type of Overloads/Restores/Adrenaline/Weapon Poison/Saradomin brews are supported.
 
-> - **Average Kill Times**: Averaging 6:00 - 8:00. Depending on enrage
+> - **Average Kill Times**: Averaging 6:00 - 8:00. Depending on enrage 100%-500%
 
 > - **Starting the fight**: Script can be started in front of Zamorak entrance if War's portal not unlocked.
 
@@ -102,12 +102,12 @@ import changes from './changes.json'
 
 
 > **Having all Possible requirements ticked on will ensure a much better kill and result from this script**
-> - Essence of Finality. (Highly recommended)
-> - Infernal Puzzle Box. (Highly recommended)
-> - Weapon Special Attack. (Highly recommended)
-> - Ring of Death can be Usefull to clutch P7 (Highly recommended)
-> - Vuln Bombs. (Highly recommended)
-> - Darkness. (Highly recommended)
+> - Essence of Finality. (Highly recommended if going for high enrage)
+> - Infernal Puzzle Box. (Highly recommended if going for high enrage)
+> - Weapon Special Attack. (Highly recommended if going for high enrage)
+> - Ring of Death can be Usefull to clutch P7 (Highly recommended if going for high enrage)
+> - Vuln Bombs. (Highly recommended if going for high enrage)
+> - Darkness. (Highly recommended if going for high enrage)
 > - Limitless.
 > - Life Transfer.
 > - Invoke Death. (Highly recommended)
