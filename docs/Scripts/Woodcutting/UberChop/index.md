@@ -41,12 +41,15 @@ import changes from './changes.json';
 > - Randomized delays to simulate human-like behavior, the script employs a fuzzy random delay function, adding randomness to interactions and navigation timings to avoid detection.
 > - Banking automation that intelligently detects when the player's inventory is full and automatically navigates to the nearest bank, deposits the logs, and returns to continue chopping.
 > - If a wood box is present in the player's inventory, the script will interact with it to fill it with logs, freeing up additional inventory space for longer chopping sessions.
-> - Chop trees in 7 Locations: 
+> - Chop trees in 9 Locations: 
 >   - Burthorpe
 >   - Draynor Village
 >   - Edgeville
+>   - Etceteria
 >   - Falador
 >   - Lumbridge
+>   - Seer's Village
+>   - Uzer
 >   - Varrock
 >   - Varrock Palace
 > - Stop and Start Button
@@ -58,16 +61,15 @@ import changes from './changes.json';
 > - Oak
 > - Willow
 > - Yew
-> - Bloodwood
+> - Teak
+> - Maple Tree
+> - Magic Tree
 > - Elder
 
 ##### Unsupported Trees
 
-- Teak
 - Mahogany
 - Acadia
-- Maple
-- Magic
 - Ivy
 - Crystal
 
