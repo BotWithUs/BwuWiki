@@ -12,6 +12,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
 
+
 <TopBanner title="UberChop" version="v0.1.2" author="Uberith" skill="Woodcutting">
 </TopBanner>
 
@@ -37,7 +38,6 @@ import changes from './changes.json';
 :::
 
 <ContentBlock title="Features">
-
 
 - **Automatic Navigation:**  
   Automatically navigates to precise, coordinate-based locations, ensuring efficient movement to tree spots and nearby banks.
