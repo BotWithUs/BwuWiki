@@ -12,7 +12,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
 
-<TopBanner title="UberChop" version="v0.0.2" author="Uberith" skill="Woodcutting">
+<TopBanner title="UberChop" version="v0.1.2" author="Uberith" skill="Woodcutting">
 </TopBanner>
 
 :::hidden
@@ -24,7 +24,9 @@ import changes from './changes.json';
 <ContentBlock title="Cost">
 
  - **BETA**: FREE / month (not including client access)
- - **Post-Beta**: TBD Coins / Month
+ - **Post-Beta**: 5 Coins / Month (not including client access)
+
+ **Beta ends November 15th**
 
 </ContentBlock>
 
@@ -37,33 +39,69 @@ import changes from './changes.json';
 <ContentBlock title="Features">
 
 
-> - **Automatic Navigation:** Automatic navigation to precise coordinate-based locations to ensure accurate navigation to tree locations and banks, minimizing inefficiencies in movement.
->
-> - **Persistent Settings:** Persistent settings is used by the script to save user preferences such as the selected location, tree type, and nest-pickup options, ensuring settings are restored across sessions.
->
-> - **Random Delays:** Randomized delays to simulate human-like behavior, the script employs a fuzzy random delay function, adding randomness to interactions and navigation timings to avoid detection.
->
-> - **Banking Automation:** Banking automation that intelligently detects when the player's inventory is full and automatically navigates to the nearest bank, deposits the logs, and returns to continue chopping.
->
-> - **Woodbox Support:** If a wood box is present in the player's inventory, the script will interact with it to fill it with logs, freeing up additional inventory space for longer chopping sessions.
->
-> - **12 Locations Supported** for chopping trees: 
->   - Burthorpe
->   - Draynor Village
->   - Edgeville
->   - Etceteria
->   - Falador
->   - Kharazi Jungle
->   - Lumbridge
->   - Menaphos
->   - Seer's Village
->   - Tai Bwo Wannai
->   - Uzer
->   - Varrock
->   - Varrock Palace
->
-> - Stop and Start Button
+- **Automatic Navigation:**  
+  Automatically navigates to precise, coordinate-based locations, ensuring efficient movement to tree spots and nearby banks.
 
+- **Persistent Settings:**  
+  Saves user preferences across sessions, including:
+  - Selected tree locations
+  - Tree types
+  - Nest-pickup options
+
+- **Human-like Random Delays:**  
+  Implements fuzzy, randomized delays in interactions and navigation timings to simulate human behavior and enhance bot-detection resistance.
+
+- **Intelligent Banking Automation:**  
+  Detects when inventory is full, automatically navigates to the nearest bank, deposits logs, and resumes chopping.
+
+- **Woodbox Support:**  
+  Interacts with a wood box in inventory if present, storing logs to extend the duration of chopping sessions.
+
+- **Magic Notepaper Support:**  
+  Uses magic notepaper, if available, to convert logs directly in the inventory, freeing up space without needing to bank as often.
+
+- **Crystallise Spell Support:**  
+  Activates and manages the Crystallise spell, boosting woodcutting experience rates when conditions are met.
+
+- **World Hopping:**  
+  Automatically hops worlds when necessary, such as to avoid crowded areas or to maximize resource availability.
+
+- **Statistics Page:**  
+  Displays real-time statistics, such as:
+  - Total logs chopped
+  - Time elapsed
+  - Experience gained
+
+- **Advanced Settings Page:**  
+  Provides additional customization options for users who want to fine-tune script behavior, offering greater control and flexibility.
+
+- **Debug Page:**  
+  Includes a debug page to facilitate troubleshooting, enabling users to identify and resolve issues more easily.
+
+- **Supported Chopping Locations:**  
+  Supports 12 locations for tree chopping:
+  - Burthorpe
+  - Draynor Village
+  - Edgeville
+  - Etceteria
+  - Falador
+  - Kharazi Jungle
+  - Lumbridge
+  - Menaphos
+  - Seer's Village
+  - Tai Bwo Wannai
+  - Uzer
+  - Varrock
+  - Varrock Palace
+
+- **Control Buttons:**  
+  Start and stop the script easily using integrated controls.
+
+
+![Example](01UberChop.png)
+![Example](02UberChop.png)
+![Example](03UberChop.png)
+![Example](04UberChop.png)
 
 <ContentBlock title="Supported Locations/Logs">
 
@@ -104,7 +142,6 @@ import changes from './changes.json';
 
 <ContentBlock title="Product Roadmap">
 > - **Player Suggestion:** Add support to have secondary actions if chopping high level trees (e.g. Elder Tree) to then do something else. Based on user input, it could begin chopping another tree (e.g. Yew), or teleport to another location to chop the high level tree.
-> - Add support to pickup bird's nests
 > - Add support for lightform/crystalize
 > - **Player Suggestion:** 
 >   - Add Support for Ancient Elven Ritual Shard (for useage with lightform/crystalize)
