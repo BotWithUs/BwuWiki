@@ -1,0 +1,28 @@
+[
+    {
+        "date": "2024-11-07",
+        "title": "v0.1.2",
+        "items": [
+            "Automatic Navigation to precise tree and bank locations",
+            "Persistent Settings to retain user preferences across sessions",
+            "Human-like Random Delays for bot-detection resistance",
+            "Intelligent Banking Automation for automatic bank trips",
+            "Woodbox Support to store logs in wood boxes if available",
+            "Magic Notepaper Support to convert logs in inventory without banking",
+            "Crystallise Spell Support for enhanced woodcutting experience",
+            "World Hopping to avoid crowded areas and maximize resources",
+            "Statistics Page to display real-time stats including logs chopped and XP gained",
+            "Advanced Settings Page for additional customization options",
+            "Debug Page for troubleshooting assistance",
+            "12 Supported Chopping Locations including Burthorpe, Draynor Village, and Varrock",
+            "Control Buttons for starting and stopping the script"
+        ]
+    },
+     {
+        "date": "2024-10-27",
+        "title": "v0.0.1",
+        "items": [
+            "Open Beta Release"
+        ]
+    }
+]
