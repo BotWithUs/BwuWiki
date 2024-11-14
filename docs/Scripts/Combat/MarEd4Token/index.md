@@ -1,6 +1,6 @@
 ---
 title: MarED4Token
-description: Farms dg tokens from ED1 minibosses..
+description: Farms dg tokens from ED4
 # Slug is the URL path for this page.
 slug: /Mar-ED4
 ---
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="MarED4" version="v1.0.6" author="MaryamK" offical="SCRIPT" skill="Necromancy">
+<TopBanner title="MarED4" version="v1.0.0" author="MaryamK" offical="SCRIPT" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -35,7 +35,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Features">
 
- - Farms dg tokens from ED4 Cerberus miniboss (235k avg dg tokens).
+ - Farms dg tokens from ED4 Cerberus miniboss (280k avg dg tokens).
  - Bank After # kills.
  - Hop Worlds to specified region of your choosing.
  - Surges to Adrenaline Crystal (Optional) -- Only use if you have Mobile or double Surge
@@ -46,6 +46,10 @@ import changes from './changes.json'
 - Uses Darkness.
 - Uses Invoke Death (Recommended).
 - Uses Eof (T90 Spec) if worn.
+- Ignores Witch Healer (Recommended if you have vulns/eof enabled).
+- Resets conjures after each kill.
+- Uses Ancient Elven Shard if in inventory.
+- Eats Blubbers & Saradomin brew (haven't had to eat in 400kc so far). 
 
 
 ![Example](02Ed4Token.png)
@@ -71,10 +75,33 @@ import changes from './changes.json'
 
 Please make sure you have enabled options and all of the mandatory abilities in your action bar
 
+# ActionBar
+> - Conjure Undead Army 
+> - Command Vengeful Ghost
+> - Soul Sap
+> - Touch of Death
+> - Death Skulls
+> - Basic Attack
+> - Bloat
+> - Volley of Souls
+> - Finger of Death
+> - Weapon Special Attack (T95 Spec)
+> - Essence of Finality (T90 Spec - can use t70 wep for same result)
+> - Quick-Prayers 1
+> - Wars Retreat Teleport.
+> - Surge
+
+**If Enabled/Optional**
+> - Invoke Death.
+> - Vulnerability bombs.
+> - Darkness.
+> - Eat Food ability (Blue Blubbers).
+> - Saradomin Brew.
+
 Notes*: 
 1. *T95 Gear* - Might be possible to do with t90 gear (haven't been tested though).
 2. *Omni Guard* - Mandatory since the script uses spec rotation.
-3. *Zuk Cape* - Required to maximize combat efficiency.
+3. *Zuk Cape* - Required to maximize DPS.
 4. This script utilizes wars altar, portal and adrenaline crystal.
 5. Ensure you have Zamorak, Lord of Chaos Portal.
 6. You must have Quick-Prayer on Action bar as mentioned above.
