@@ -93,8 +93,8 @@ import changes from './changes.json'
 > - Zemoregal's Nexus or Deathwarden Nexus (Make sure you have 25k of each rune and Ectoplasm)
 > - Equilibrium Aura unlocked
 > - Underworld Grimoire 4
-</ContentBlock>
-<ContentBlock title="Inventory">
+    </ContentBlock>
+    <ContentBlock title="Inventory">
 
 
 > **Inventory**
@@ -127,8 +127,8 @@ import changes from './changes.json'
 > - Death Ward
 > - Conservation of Energy
 > - Fury of the Small
-</ContentBlock>
-<ContentBlock title="Passive Unlocks">
+    </ContentBlock>
+    <ContentBlock title="Passive Unlocks">
 
 
 > **Passive Unlocks (required)**
@@ -136,8 +136,8 @@ import changes from './changes.json'
 > - T100 Omni Guard and Soulbound Lantern (Shard of Genesis Unlock)
 > - Reaper Crew (Not required but you will possibly experience some deaths for not passing DPS checks to phase Telos before certain mechanics as this adds extra damage bonus)
 > - Anachronia Farm Unlocked Totem Perk: Armored (Increases the duration of Barricade by 3 ticks, i.e. 1.8 seconds (6 ticks, i.e. 3.6 seconds).)
-</ContentBlock>
-<ContentBlock title="Passive Unlocks">
+    </ContentBlock>
+    <ContentBlock title="Passive Unlocks">
 
 
 > **Action Bar  (All of these are required on the action bar)**
@@ -155,14 +155,14 @@ import changes from './changes.json'
 > - Soul Strike
 > - Deathguard Special Attack
 > - Death Essence (Omni-Guard Special Attack)
-> - Darkness 
+> - Darkness
 > - Invoke Death
 > - Blood Siphon
 > - Threads of Fate
 > - Life Transfer
 > - Essence of Finality Special Attack (Ability)
-</ContentBlock>
-<ContentBlock title="Passive Unlocks">
+    </ContentBlock>
+    <ContentBlock title="Passive Unlocks">
 
 
 > **Defensives (All of these are required on the action bar)**
@@ -178,11 +178,11 @@ import changes from './changes.json'
 > - Freedom
 > - Debilitate
 > - Anticipation
-> - Invoke Lord of Bones
-> - Vengance
+> - Invoke Lord of Bones (optional if not 100% accurate)
+> - Vengeance
 > - Spellbook Swap (Lunar)
-</ContentBlock>
-<ContentBlock title="Misc">
+    </ContentBlock>
+    <ContentBlock title="Misc">
 
 
 > **Misc & Info (All of these are required on the action bar)**
@@ -196,16 +196,17 @@ import changes from './changes.json'
 > - Make sure you have Necromancy auto-attack turned off in combat settings
 > - Make sure you're using Full Manual (Not revolution)
 > - Make sure you have auto-retaliate turned off
-</ContentBlock>
-<ContentBlock title="Quick Prayers">
+> - Make sure ability queuing is turned off
+    </ContentBlock>
+    <ContentBlock title="Quick Prayers">
 
 
 > **Quick Prayers Setup (All of these are required on the action bar)**
 > - Quick Prayers 1 (Soul Split + Ruination)
 > - Quick Prayers 2 (Deflect Melee + Ruination)
 > - Quick Prayers 3 (Deflect Mage + Ruination)
-</ContentBlock>
-:::hidden
+    </ContentBlock>
+    :::hidden
 
 ## Setup
 
@@ -213,11 +214,18 @@ import changes from './changes.json'
 <ContentBlock title="Setup">
 
 <details>
-<summary><strong>Action Bar Setup</strong></summary>
+<summary><strong>Inventory & Equipment Setup</strong></summary>
 
 ![Action Bar](inv1.png)
 
-> - Inventory setup
+- **Reaver scroll autofire set to 6-8 depending on enrage.**
+
+</details>
+
+<details>
+<summary><strong>Bonfire Preset</strong></summary>
+
+![Action Bar](bonfire.png)
 
 </details>
 
