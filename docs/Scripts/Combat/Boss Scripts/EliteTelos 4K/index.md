@@ -178,8 +178,8 @@ import changes from './changes.json'
 > - Freedom
 > - Debilitate
 > - Anticipation
-> - Invoke Lord of Bones
-> - Vengance
+> - Invoke Lord of Bones (optional if not 100% accurate)
+> - Vengeance
 > - Spellbook Swap (Lunar)
 </ContentBlock>
 <ContentBlock title="Misc">
@@ -196,6 +196,7 @@ import changes from './changes.json'
 > - Make sure you have Necromancy auto-attack turned off in combat settings
 > - Make sure you're using Full Manual (Not revolution)
 > - Make sure you have auto-retaliate turned off
+> - Make sure ability queuing is turned off
 </ContentBlock>
 <ContentBlock title="Quick Prayers">
 
@@ -213,11 +214,18 @@ import changes from './changes.json'
 <ContentBlock title="Setup">
 
 <details>
-<summary><strong>Action Bar Setup</strong></summary>
+<summary><strong>Inventory & Equipment Setup</strong></summary>
 
 ![Action Bar](inv1.png)
 
-> - Inventory setup
+- **Reaver scroll autofire set to 6-8 depending on enrage.**
+
+</details>
+
+<details>
+<summary><strong>Bonfire Preset</strong></summary>
+
+![Action Bar](bonfire.png)
 
 </details>
 
