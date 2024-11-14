@@ -227,6 +227,7 @@ import changes from './changes.json'
 
 ![Action Bar](bonfire.png)
 
+
 </details>
 
 
@@ -242,3 +243,4 @@ import changes from './changes.json'
 <Changelog changes={changes}>
 
 </Changelog>
+
