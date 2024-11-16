@@ -24,7 +24,7 @@ import changes from './changes.json'
 <ContentBlock title="Cost">
 > - $250 USD / Month (not including client access). Limited slots. Two sessions per user.
 :::danger Limitations
-- **Be aware, This boss require very good gear and high requirements, deaths can still happen**
+- **Be aware, this boss requires very good gear and high requirements, deaths can still happen**
 :::
 </ContentBlock>
 
