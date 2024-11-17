@@ -1,57 +1,106 @@
-# CoaezSlayer
-AIO Slayer which supports all masters
+---
+title: CoaezSlayer
+description: All-in-one Slayer script supporting all masters.
+slug: /CoaezSlayer
+---
 
-## Getting Started
-### 1. Combat Setup
-- Open the combat window and configure:
-    - Full Manual or checkbox the Revolution (Full Manual only for necromancy)
-    - Set ability priorities and rotation only for necromancy.
-    - Configure target range for engaging monsters
-    - Set up required action bars with abilities/prayers/teleports
-    
-### 2. Loot Settings
-- Configure Area Loot settings:
-    - Enable/disable "Loot All" or specific items
-    - Set up notepaper configuration for valuable drops
-    - Configure loot range and delay
-    - Set up blacklist for unwanted items
+import React from 'react';
+import TopBanner from '@site/src/components/TopBanner';
+import ContentBlock from '@site/src/components/ContentBlock';
+import Changelog from '@site/src/components/Changelog';
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import changes from './changes.json'
 
-### 3. Support Features
-- Set up consumable management:
-    - Prayer/potion thresholds
-    - Food settings
-    - Aura preferences
-    - Incense stick configuration
-    - Bone/ash handling
+<TopBanner title="CoaezSlayer" author="coaeasy" version="v1.0.0" skill="Slayer">
+</TopBanner>
 
-### 4. Task Settings
-- Select your preferred Slayer master
-- Configure banking preferences
-- Set up safety options (health thresholds emergency teleport)
-- Ensure required teleports are available (War's Retreat/Archaeology journal)
-- Configure world hopping settings if desired
-- Supports War's Retreat and Arch book teleport
+:::hidden
 
-## Key Features
-- Supports all Slayer masters
-- Automatic banking after every task or full inventory
-- Safety features to teleport on low hp
-- Slayer point farming
-- World hopping in case player is detected on our location
+## Cost
 
-## Basic Settings
-- **Health Failsafe**: Set minimum health % for emergency teleport
-- **Banking Options**: Enable/disable automatic banking
-- **Task Management**: Block list and auto-cancel options
+:::
+
+<ContentBlock title="Cost">
+
+> - 20$ / week (subject to change and not including client access)
+
+</ContentBlock>
+
+:::hidden
+
+## Features
+
+:::
+
+<ContentBlock title="Features">
+
+> - AIO Slayer supporting all masters
+> - Full Manual or Revolution combat support
+> - Automatic banking after tasks/full inventory
+> - Complete loot management with notepaper support
+> - Prayer/potion/food management
+> - Aura and incense stick support
+> - Safety features with emergency teleport
+> - World hopping for crowded locations
+> - War's Retreat and Arch book teleport support
+> - Task auto-canceling and block list management
+
+</ContentBlock>
+
+:::hidden
 
 ## Requirements
-- Full manual combat necromancy mode or revolution option
-- Area loot enabled with 1 item opens loot interface enabled.
-- Bank presets saved and loaded
-- All slayer items for tasks in bank or on tool belt.
 
-## Usage
-- Open combat window and configure it, open slayer window and configure it.
-- It's important you do not close the Slayer window while the script is running.
+:::
 
-Need help? Check the script thread or Discord community for support.
+<ContentBlock title="Requirements">
+
+- Combat window properly configured
+- Area loot enabled with single item opens interface
+- Bank presets ready
+- Required Slayer items in bank/toolbelt
+- Action bars set up with abilities/prayers/teleports
+
+</ContentBlock>
+
+:::hidden
+
+## Setup
+
+:::
+
+<ContentBlock title="Setup">
+
+<details>
+<summary>Getting Started</summary>
+
+1. **Combat**
+  - Configure combat mode (Manual/Revolution)
+  - Set ability priorities and rotations
+  - Set target range and action bars
+
+2. **Looting & Support**
+  - Set Area Loot settings and notepapers
+  - Configure prayer/potion thresholds
+  - Set up food, auras, and incense sticks
+
+3. **Tasks**
+  - Choose Slayer master
+  - Set banking and safety preferences
+  - Configure teleports and world hopping
+
+Note: Keep Slayer window open while running.
+
+</details>
+
+</ContentBlock>
+
+:::hidden
+
+## Changelog
+
+:::
+
+<Changelog changes={changes}>
+
+</Changelog>
