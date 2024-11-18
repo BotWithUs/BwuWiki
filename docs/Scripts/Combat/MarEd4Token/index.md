@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> ? / month (not including client access)
+> TBD / month (not including client access)
 
 </ContentBlock>
 
