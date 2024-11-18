@@ -11,151 +11,168 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
+<TopBanner title="UberChop" version="v1.0.0" author="Uberith" skill="Woodcutting" />
 
-<TopBanner title="UberChop" version="v0.1.2" author="Uberith" skill="Woodcutting">
-</TopBanner>
-
-:::hidden
+---
 
 ## Cost
 
-:::
-
 <ContentBlock title="Cost">
 
- - **BETA**: FREE / month (not including client access)
- - **Post-Beta**: 5 Coins / Month (not including client access)
+- **5 Coins / Month** (not including client access)  
 
- **Beta ends November 15th**
 
 </ContentBlock>
 
-:::hidden
+---
 
 ## Features
 
-:::
-
 <ContentBlock title="Features">
 
-
 - **Automatic Navigation:**  
-  Automatically navigates to precise, coordinate-based locations, ensuring efficient movement to tree spots and nearby banks.
+  Effortlessly navigates to precise, coordinate-based locations, ensuring efficient movement to tree spots and nearby banks.  
 
 - **Persistent Settings:**  
-  Saves user preferences across sessions, including:
-  - Selected tree locations
-  - Tree types
-  - Nest-pickup options
+  Save preferences across sessions, including:  
+    - Selected tree locations  
+    - Tree types  
+    - Nest-pickup options  
 
 - **Human-like Random Delays:**  
-  Implements fuzzy, randomized delays in interactions and navigation timings to simulate human behavior and enhance bot-detection resistance.
+  Fuzzy, randomized delays mimic human behavior, reducing detection risk and enhancing realism.  
 
 - **Intelligent Banking Automation:**  
-  Detects when inventory is full, automatically navigates to the nearest bank, deposits logs, and resumes chopping.
+  Automatically detects full inventory, navigates to the nearest bank, deposits logs, and resumes chopping.  
 
 - **Woodbox Support:**  
-  Interacts with a wood box in inventory if present, storing logs to extend the duration of chopping sessions.
+  Stores logs in a wood box (if available) to extend chopping sessions without interruptions.  
 
 - **Magic Notepaper Support:**  
-  Uses magic notepaper, if available, to convert logs directly in the inventory, freeing up space without needing to bank as often.
+  Automatically uses magic notepaper to convert logs into bank notes, freeing up inventory space.  
 
 - **Crystallise Spell Support:**  
-  Activates and manages the Crystallise spell, boosting woodcutting experience rates when conditions are met.
+  Optimizes experience gain with Crystallise spell management when conditions are met.  
 
 - **World Hopping:**  
-  Automatically hops worlds when necessary, such as to avoid crowded areas or to maximize resource availability.
+  Avoid crowded areas or maximize resources with automatic world hopping.  
+
+---
+
+### Advanced Features
 
 - **Statistics Page:**  
-  Displays real-time statistics, such as:
-  - Total logs chopped
-  - Time elapsed
-  - Experience gained
+  Real-time display of:  
+    - Total logs chopped  
+    - Time elapsed  
+    - Experience gained  
 
 - **Advanced Settings Page:**  
-  Provides additional customization options for users who want to fine-tune script behavior, offering greater control and flexibility.
+  Fine-tune script behavior with advanced options for greater customization.  
 
 - **Debug Page:**  
-  Includes a debug page to facilitate troubleshooting, enabling users to identify and resolve issues more easily.
+  Troubleshoot issues easily with a built-in debug page.  
 
-- **Supported Chopping Locations:**  
-  Supports 12 locations for tree chopping:
-  - Burthorpe
-  - Draynor Village
-  - Edgeville
-  - Etceteria
-  - Falador
-  - Kharazi Jungle
-  - Lumbridge
-  - Menaphos
-  - Seer's Village
-  - Tai Bwo Wannai
-  - Uzer
-  - Varrock
-  - Varrock Palace
+### Supported Chopping Locations  
 
-- **Control Buttons:**  
-  Start and stop the script easily using integrated controls.
+Supports 12 key locations for optimized tree chopping:  
+- **Burthorpe:** Tree, Oak  
+- **Draynor Village:** Tree, Oak, Willow, Elder Tree  
+- **Edgeville:** Tree, Oak, Willow  
+- **Etceteria:** Tree  
+- **Falador:** Tree, Oak, Yew, Elder Tree  
+- **Kharazi Jungle:** Teak, Mahogany  
+- **Lumbridge:** Tree, Oak, Willow  
+- **Menaphos:** Acadia  
+- **Seer’s Village:** Tree, Oak, Willow, Maple Tree, Magic Tree, Elder Tree  
+- **Tai Bwo Wannai:** Teak, Mahogany  
+- **Uzer:** Tree, Teak  
+- **Varrock:** Tree, Oak, Yew, Elder Tree  
+- **Varrock Palace:** Tree, Oak, Yew  
 
+---
 
-![Example](01UberChop.png)
-![Example](02UberChop.png)
-![Example](03UberChop.png)
-![Example](04UberChop.png)
+### Screenshots  
+
+#### Main Interface
+![Main Interface](01UberChop.png)
+
+#### Statistics Page
+![Main Interface Example](02UberChop.png)  
+
+#### Advanced Settings Page 
+![Settings Example](03UberChop.png)  
+
+#### Debug Page
+![Debug Example](04UberChop.png)  
+
+</ContentBlock>
+
+---
+
+## Supported Logs
 
 <ContentBlock title="Supported Locations/Logs">
 
-| Location        | Supported Logs                                                   |
-|-----------------|:-------------------------------------------------------:|
-| Burthorpe       | Tree, Oak                                               |
-| Draynor Village | Tree, Oak, Willow, Elder tree                           |
-| Edgeville       | Tree, Oak, Willow                                       |
-| Falador         | Tree, Oak, Yew, Elder tree                              |
-| Kharazi Jungle  | Teak, Mahogany                                          |
-| Lumbridge       | Tree, Oak, Willow                                       |
-| Menaphos        | Acadia                                                  |
-| Seer's Village  | Tree, Oak, Willow, Maple Tree, Magic tree, Elder tree   |
-| Tai Bwo Wannai  | Teak, Mahogany                                          |
-| Uzer            | Tree, Teak                                              |
-| Varrock         | Tree, Oak, Yew, Elder tree                              |
-| Varrock Palace  | Tree, Oak, Yew                                          |
+| Location        | Supported Logs                           |
+|-----------------|------------------------------------------|
+| **Burthorpe**   | Tree, Oak                               |
+| **Draynor Village** | Tree, Oak, Willow, Elder Tree       |
+| **Edgeville**   | Tree, Oak, Willow                       |
+| **Falador**     | Tree, Oak, Yew, Elder Tree              |
+| **Kharazi Jungle** | Teak, Mahogany                       |
+| **Lumbridge**   | Tree, Oak, Willow                       |
+| **Menaphos**    | Acadia                                  |
+| **Seer’s Village** | Tree, Oak, Willow, Maple Tree, Magic Tree, Elder Tree |
+| **Tai Bwo Wannai** | Teak, Mahogany                       |
+| **Uzer**        | Tree, Teak                              |
+| **Varrock**     | Tree, Oak, Yew, Elder Tree              |
+| **Varrock Palace** | Tree, Oak, Yew                       |
 
+---
 
-</ContentBlock>
+### Unsupported Trees
 
-
-#### Unsupported Trees
-
-- Ivy
-- Crystal
+- Ivy  
+- Crystal  
 
 </ContentBlock>
 
-:::hidden
+---
 
 ## Requirements
-:::
+
 <ContentBlock title="Requirements">
-    - Must be equipped with an axe appropriate for the trees.
-    - If using a wood box, it must be compatible with the selected trees.
+
+- Must be equipped with an axe appropriate for the trees.  
+- If using a wood box, ensure compatibility with selected trees.  
+
 </ContentBlock>
+
+---
+
+## Product Roadmap
 
 <ContentBlock title="Product Roadmap">
-> - **Player Suggestion:** Add support to have secondary actions if chopping high level trees (e.g. Elder Tree) to then do something else. Based on user input, it could begin chopping another tree (e.g. Yew), or teleport to another location to chop the high level tree.
-> - Add support for lightform/crystalize
-> - **Player Suggestion:** 
->   - Add Support for Ancient Elven Ritual Shard (for useage with lightform/crystalize)
->   - Add Support for Perfect JUJU Potions
->   - Add support for Destroy special mahogany logs
->   - Add support for Beaver pouches
->   - Add support for Incense Sticks
-> - Add support for bank presets
-> - Implement anomaly detection systems that monitor the script's behavior in real-time and adjust the actions if they seem too consistent or predictable. Randomize actions such as:
->   - Small variations in movement speed
->   - Occasional breaks or pauses
->   - Random interactions with other game objects (like inspecting a nearby item or interacting with another player).
+
+> ### Planned Features  
+> - **Player Suggestion:**  
+>   Add secondary actions for high-level trees like Elder Trees (e.g., switch to Yew after Elder, teleport for another Elder).  
+> - **New Features:**  
+>   - Ancient Elven Ritual Shard support for Lightform/Crystallise  
+>   - Perfect Juju Potion integration  
+>   - Special Mahogany Log management  
+>   - Beaver Pouch support  
+>   - Incense Stick support  
+>   - Bank preset automation  
+> - **Anomaly Detection:**  
+>   Implement real-time behavior adjustments for greater variability, including:  
+>     - Randomized movement speeds  
+>     - Occasional pauses  
+>     - Interaction with nearby objects or players.  
+
 </ContentBlock>
 
-:::
+---
 
 <Changelog changes={changes} />
