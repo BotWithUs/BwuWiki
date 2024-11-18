@@ -1,6 +1,6 @@
 ---
 title: UberMine
-description: Optimize your mining in game with precision and automation.
+description: Optimize your mining in-game with precision and automation.
 slug: /UberMine
 ---
 
@@ -11,97 +11,119 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
-<TopBanner title="UberMine" version="v0.0.1" author="Uberith" skill="Mining">
-</TopBanner>
+<TopBanner title="UberMine" version="v1.0.0" author="Uberith" skill="Mining" />
 
-:::hidden
+---
 
 ## Cost
 
-:::
-
 <ContentBlock title="Cost">
 
- - **BETA**: FREE / month (not including client access)
- - **Post-Beta**: TBD Coins / Month (not including client access)
+- **Subscription:** 3 Coins / Week (not including client access)
 
- **Beta ends December 15th**
+> Start mining smarter today for just 3 coins per week!
 
 </ContentBlock>
 
-:::hidden
+---
 
 ## Features
 
-:::
-
 <ContentBlock title="Features">
 
+### Main Interface  
+![Main Interface](01UberMine.png)
+
+### Core Features
+
 - **Automatic Navigation:**  
-  Automatically navigates to precise, coordinate-based locations, ensuring efficient movement to mining spots and nearby banks.
+  Automatically navigates to precise, coordinate-based mining spots, ensuring efficient transitions between locations, banks, and forges.
 
 - **Persistent Settings:**  
-  Saves user preferences across sessions, including:
-  - Selected mining locations
-  - Ore types
-  - Inventory management options
+  Save preferences across sessions, including:  
+    - Selected mining locations  
+    - Preferred ore types  
+    - Inventory management options  
 
 - **Human-like Random Delays:**  
-  Implements fuzzy, randomized delays in interactions and navigation timings to simulate human behavior and enhance bot-detection resistance.
+  Mimics human behavior with randomized delays in interactions and movement, reducing bot-detection risk.
 
 - **Intelligent Banking Automation:**  
-  Detects when inventory is full, automatically navigates to the nearest bank, deposits ores, and resumes mining.
+  Detects when your inventory is full, automatically banks ores, and resumes mining without manual intervention.
 
 - **Statistics Page:**  
-  Displays real-time statistics, including:
-  - Total ores mined
-  - Time elapsed
-  - Experience gained
+  Provides real-time feedback, including:  
+    - Total ores mined  
+    - Time elapsed  
+    - Experience gained  
 
+- **Rockerunities Support:**  
+  Recognizes and prioritizes rockertunities for maximum efficiency and XP boosts during mining.
 
-- **Supported Mining Locations:**  
-  Supports multiple mining locations, including:
-  - Burthorpe
+---
+
+### Supported Mining Locations  
+
+UberMine supports a wide range of mining locations optimized for both low and high-level players:
+
+| Location                       | Supported Ores                                  |
+|--------------------------------|------------------------------------------------|
+| **Burthorpe**                  | Copper, Tin, Clay, Iron, Silver, Common gem rock | 
+| **Dwarven Mine**               | Coal, Copper, Iron, Luminite, Tin               | 
+| **Dwarven Mine - Miners' Guild** | Coal, Orichalcite, Runite                      | 
+| **Varrock - Rune Essence**     | Rune Essence                                    | 
+| **Varrock - West**             | Copper, Tin, Mithril, Adamantite               | 
+
+---
+
+### Advanced Features
 
 - **Control Buttons:**  
-  Start and stop the script easily using integrated controls.
+  Start, pause, or stop the script seamlessly using integrated controls for greater flexibility.  
 
-![Example](01UberMine.png)
-![Example](02UberMine.png)
-
-</ContentBlock>
-
-<ContentBlock title="Supported Locations/Ores">
-
-| Location               | Supported Ores                                      |
-|------------------------|:---------------------------------------------------:|
-| Burthorpe              | Copper, Tin, Clay, Iron, Silver, Common gem rock    |
+- **Real-Time Feedback:**  
+  Monitor mining progress, resource availability, and efficiency with detailed statistics.  
 
 </ContentBlock>
 
-:::hidden
+---
+
+## Screenshots  
+
+![Main Interface Example](02UberMine.png)  
+![Settings Example](01UberMine.png)  
+
+---
 
 ## Requirements
 
-:::
 <ContentBlock title="Requirements">
-    - Must be equipped with a pickaxe appropriate for the selected ores.
-    - If using magic notepaper, ensure it’s in the inventory.
+
+- Equip a pickaxe appropriate for the selected ores.  
+- For magic notepaper functionality, ensure it’s in your inventory.  
+
 </ContentBlock>
+
+---
+
+## Product Roadmap
 
 <ContentBlock title="Product Roadmap">
-> - **Player Suggestion:** Add secondary actions if mining high-level ores (e.g., Runite), such as teleporting to another location or switching to lower-level ores during respawn times.
-> - Add support for lightform/crystallise on specific ores.
-> - **Player Suggestions:** 
->   - Add support for usage of Perfect Juju Potions and various mining boosts.
->   - Add support for mining familiar pouches (e.g., Lava Titan) for bonus XP.
->   - Add support for Incense Sticks and mining auras.
-> - Implement anomaly detection for monitoring and adjusting script actions if they seem too consistent. Randomize actions, including:
->   - Variations in movement speed
->   - Occasional breaks or pauses
->   - Random interactions with nearby game objects (like examining rocks or nearby items).
+
+> ### Planned Features
+> - **Player Suggestion:** Add secondary actions for high-level ores like Runite, such as teleporting to another location or switching to lower-level ores during respawn.  
+> - **New Features:**  
+>   - Perfect Juju Potion and mining boost integration.  
+>   - Support for mining familiar pouches (e.g., Lava Titan) for bonus XP.  
+>   - Incense Stick and mining aura support.  
+> - **Anomaly Detection:**  
+>   Implement real-time monitoring for behavior adjustments, such as:  
+>     - Variations in movement speed.  
+>     - Occasional pauses to simulate breaks.  
+>     - Random interactions with nearby game objects (like examining rocks or items).  
+
 </ContentBlock>
 
-:::
+---
 
 <Changelog changes={changes} />
