@@ -77,11 +77,8 @@ import changes from './changes.json';
 ## Requirements
 
 <ContentBlock title="Requirements">
-
-- Must be equipped with an axe appropriate for the trees.  
-- If using a wood box, ensure compatibility with selected trees.  
-- If Tai Bwo Wanna is selected, you must have the sticks in your backpack
-
+    - Must be equipped with an axe appropriate for the trees.
+    - If using a wood box, it must be compatible with the selected trees.
 </ContentBlock>
 
 ---
