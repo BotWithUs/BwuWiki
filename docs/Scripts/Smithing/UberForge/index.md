@@ -19,7 +19,7 @@ import changes from './changes.json';
 
 <ContentBlock title="Cost">
 
-- **Subscription:** 1 Coin / Month (not including client access)
+- **Subscription:** Free (not including client access)
 
 > Automate ore transportation to the forge for just 1 coin per month — efficient and affordable!
 
