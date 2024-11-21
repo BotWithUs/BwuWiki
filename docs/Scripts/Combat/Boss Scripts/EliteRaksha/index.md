@@ -150,7 +150,6 @@ import changes from './changes.json'
 > - Blue Blubber Jellyfish
 > - Guthix Rest flask (6)
 > - Enhanced Excalibur
-> - Ingenuity of Humans
 
 </ContentBlock>
 
