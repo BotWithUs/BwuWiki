@@ -23,7 +23,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> TBD / month (not including client access)
+> $13 / month (not including client access)
 
 </ContentBlock>
 
@@ -40,18 +40,23 @@ import changes from './changes.json'
 > - Revolution++ (Magic, Range).
 > - Revolution+ Necromancy Basics (uses thresholds and auto-attacks).
 > - Full Manual Mode (optimized for T95 gear & Zuk cape).
-- Features:
-> - Platypus safespotting to avoid Chaos Witch (recommended for low levels).
+
+> - Platypus safespotting to avoid Chaos Witch (recommended for low levels) - you need Bind spell (1 nature rune per cast). 
+> - Suppports wand switch for spell casts. (only use if you have 0% accuracy).
 > - Supports Curses & Normal Prayers.
 > - Uses Solid Food, Brews, and Prayer Potions.
 > - Death Handler to reclaim items and continue.
 > - Group Teleport support if Zamorak isn't unlocked.
+> - Re-create Group after each kill.
 > - Banking after a configurable number of kills.
+> - Randomized Banking - supports Edgeville, Burthrope and Taverly.
 > - World Hopping to a specified region.
 > - Data is persistent across sessions (auto-saved every 2 minutes).
     ## Optional
 - Uses vulnerability bombs if in inventory.
+- Disable Prayers once at safespot
 - Uses Darkness.
+- Reset Conjures after each kill.
 - Uses Invoke Death (Recommended).
 - Uses Eof (T90 Spec) if worn.
 - Ignores Witch Healer (Recommended if you have vulns/eof enabled).
@@ -122,7 +127,6 @@ Notes*:
 
 # Action Bar
 > - Selected Prayers & Deflect Melee
-> - Wars Retreat Teleport.
 > - Surge.
 > - Bind Spell
 > - Appropriate abilities for your style.
