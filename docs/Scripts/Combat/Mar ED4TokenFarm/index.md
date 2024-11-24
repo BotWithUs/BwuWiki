@@ -40,7 +40,6 @@ import changes from './changes.json'
 > - Revolution++ (Magic, Range).
 > - Revolution+ Necromancy Basics (uses thresholds and auto-attacks).
 > - Full Manual Mode (optimized for T95 gear & Zuk cape).
-
 > - Platypus safespotting to avoid Chaos Witch (recommended for low levels) - you need Bind spell (1 nature rune per cast). 
 > - Suppports wand switch for spell casts. (only use if you have 0% accuracy).
 > - Supports Curses & Normal Prayers.
@@ -164,7 +163,6 @@ Notes*:
 </ContentBlock>
 
 :::hidden
-
 ## Changelog
 
 :::
