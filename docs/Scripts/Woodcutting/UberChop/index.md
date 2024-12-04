@@ -12,7 +12,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
 
-<TopBanner title="UberChop" version="v0.0.1" author="Uberith" skill="Woodcutting">
+<TopBanner title="UberChop" version="v1.0.0" author="Uberith" skill="Woodcutting">
 </TopBanner>
 
 ---
@@ -21,7 +21,7 @@ import changes from './changes.json';
 
 <ContentBlock title="Cost">
 
- - **Cost**: 5 Coins / Month (not including client access)
+ - **Cost**: 8 Coins / Month (not including client access)
 
 </ContentBlock>
 
