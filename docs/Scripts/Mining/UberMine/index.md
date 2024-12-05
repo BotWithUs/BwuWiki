@@ -91,10 +91,30 @@ import changes from './changes.json';
 
 ---
 
+## Menu Screens
+
+<ContentBlock title="Menu Screens">
+
+### Main Configuration Screen
+![Main Configuration Screen](./UberMine01.png)
+
+### Statistics Panel
+![Main Configuration Screen](./UberMine02.png)
+
+### Advanced Settings Panel (Under Construction)
+![Main Configuration Screen](./UberMine03.png)
+
+### Debug Panel
+![Main Configuration Screen](./UberMine04.png)
+
+</ContentBlock>
+
+
+---
+
 ## Product Roadmap
 
 <ContentBlock title="Product Roadmap">
-> - **Player Suggestion**: Add advanced support for crystal pickaxes and lightform/crystallize mining techniques.  
 > - **Player Suggestion**: Implement support for Juju mining potions and other boosts to enhance mining efficiency.  
 > - Add support for player-driven automation goals, such as mining a full inventory of ores and then smelting at a forge.  
 > - Improve pathfinding and avoidance of high-traffic areas to optimize efficiency in competitive environments.  

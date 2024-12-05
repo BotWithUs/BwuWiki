@@ -71,13 +71,31 @@ import changes from './changes.json'
 :::
 <ContentBlock title="Requirements">
 
-> - Materials (e.g., logs, bowstrings, arrow shafts, feathers, etc.) must be available in the inventory or bank.  
+> - Materials (e.g., logs, arrow shafts, feathers, etc.) must be available in the inventory or bank.  
 > - The player must have the necessary fletching level for the desired tasks.  
 > - If crafting combination items, ensure all required components are accessible.  
 
 </ContentBlock>
 
-:::hidden
+---
+
+## Menu Screens
+
+<ContentBlock title="Menu Screens">
+
+### Main Configuration Screen
+![Main Configuration Screen](./UberFletch01.png)
+
+### Statistics Panel
+![Main Configuration Screen](./UberFletch02.png)
+
+### Advanced Settings Panel
+![Main Configuration Screen](./UberFletch03.png)
+
+### Debug Panel
+![Main Configuration Screen](./UberFletch04.png)
+
+</ContentBlock>
 
 ---
 
