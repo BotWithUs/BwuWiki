@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteRaksha" version="v1.0.0" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteRaksha" version="v1.0.2" author="Clarity & Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
