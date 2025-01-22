@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteRaksha" version="v1.0.0" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteRaksha" version="v1.0.2" author="Clarity & Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $75 USD / month (not including client access).
+> - 20 marketplace coins / week (not including client access).
 :::danger Limitations
 - This script has **very high** requirements, ensure you meet them before purchasing.
    - Contact **Clarity** or **Gibson** if you have questions about whether your account(s) meet the criteria.

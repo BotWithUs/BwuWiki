@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteTelos 4K" version="v1.0.1" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteTelos 4K" version="v1.0.2" author="Clarity & Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $250 USD / month (not including client access).
+> - 60 marketplace coins / week (not including client access).
 > - Contact a sales support staff member to purchase access.
 >   - Indicated by the "Sales Support" role on Discord.
 >   - Unlike other scripts, access is given manually by sales support staff after purchase.
