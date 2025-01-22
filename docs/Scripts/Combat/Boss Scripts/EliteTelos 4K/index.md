@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteTelos 4K" version="v1.0.1" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteTelos 4K" version="v1.0.2" author="Clarity & Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
