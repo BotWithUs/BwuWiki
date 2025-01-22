@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $75 USD / month (not including client access).
+> - 20 marketplace coins / week (not including client access).
 :::danger Limitations
 - This script has **very high** requirements, ensure you meet them before purchasing.
    - Contact **Clarity** or **Gibson** if you have questions about whether your account(s) meet the criteria.
