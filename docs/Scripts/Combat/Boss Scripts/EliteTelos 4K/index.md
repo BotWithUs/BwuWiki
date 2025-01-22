@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $250 USD / month (not including client access).
+> - 60 marketplace coins / week (not including client access).
 > - Contact a sales support staff member to purchase access.
 >   - Indicated by the "Sales Support" role on Discord.
 >   - Unlike other scripts, access is given manually by sales support staff after purchase.
