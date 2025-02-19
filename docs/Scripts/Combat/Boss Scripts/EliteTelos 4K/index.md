@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteTelos 4K" version="v1.0.2" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteTelos 4K" version="v1.1.2" author="Clarity & Gibson" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,14 +22,9 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - 60 marketplace coins / week (not including client access).
-> - Contact a sales support staff member to purchase access.
->   - Indicated by the "Sales Support" role on Discord.
->   - Unlike other scripts, access is given manually by sales support staff after purchase.
+> - 120 marketplace coins / month (not including client access).
 :::danger Limitations
 - Available user slots are limited, given on a first come, first served basis.
-- Maximum of **two sessions per user** when using this script.
-   - If you want to run more than two sessions, you need to purchase again for $250.
 - This script has **very high** requirements, ensure you meet them before purchasing.
    - Contact **Clarity** or **Gibson** if you have questions about whether your account(s) meet the criteria.
 - Deaths are still possible.
@@ -186,7 +181,7 @@ import changes from './changes.json'
 > - Surge
 > - Dive
 > - Prism of Restoration (if using)
-> - Vulnerability Bomb (target)
+> - Vulnerability Bomb (default mode)
 > - Blue Blubber Jellyfish
 > - Saradomin Brew Flask (6) or Super or Guthix Rest
 > - Enhanced Excalibur
