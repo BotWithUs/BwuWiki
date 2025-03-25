@@ -1,8 +1,8 @@
 ---
-title: Aki Araxxi
-description: Kills Araxxi.
+title: AraxxorWithUs
+description: Kills Araxxi / Araxxor.
 # Slug is the URL path for this page.
-slug: /Aki-Araxxi
+slug: /AraxxorWithUs
 ---
 
 import React from 'react';
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Aki Araxxi " version="v1.0" author="Akisame" skill="Necromancy">
+<TopBanner title="AraxxorWithUs" version="v1.0" author="BotWithUs" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $45 USD / month (not including client access)
+> - $18 USD / weekly (not including client access)
 </ContentBlock>
 
 :::hidden
