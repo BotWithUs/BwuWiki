@@ -2,7 +2,7 @@
 title: ZamorakWithUS
 description: Kills Zamorak.
 # Slug is the URL path for this page.
-slug: /Aki-Zamorak
+slug: /ZamorakWithUS
 ---
 
 import React from 'react';
