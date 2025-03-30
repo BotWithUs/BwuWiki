@@ -1,5 +1,5 @@
 ---
-title: Aki Zamorak
+title: ZamorakWithUS
 description: Kills Zamorak.
 # Slug is the URL path for this page.
 slug: /Aki-Zamorak
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="Aki Zamorak" version="v1.0" author="Akisame" skill="Necromancy">
+<TopBanner title="ZamorakWithUS" version="v1.0" author="BotWithUs" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $80 USD / month (not including client access)
+> - $28 USD / wk (not including client access)
 :::danger Limitations
 - **Be aware, This boss require very good gear and high requirements, deaths can still happen**
 :::
