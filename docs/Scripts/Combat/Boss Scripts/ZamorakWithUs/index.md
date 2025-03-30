@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - $28 USD / wk (not including client access)
+> - $35 USD / wk (not including client access)
 :::danger Limitations
 - **Be aware, This boss require very good gear and high requirements, deaths can still happen**
 :::
