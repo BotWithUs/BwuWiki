@@ -183,6 +183,20 @@ import changes from './changes.json'
 </details>
 
 <details>
+  <summary><strong>Equipment Binding</strong></summary>
+
+  ![Equipment Binding GUI](./img/bindingSetup.png)
+
+  > In the **Equipment** tab, enable **Handle Equipment Binding** to configure your custom gear presets:
+  > - **Category Filter**: Select the equipment slot (e.g. MAIN_HAND, HEAD, etc.).
+  > - **Style Filter**: Choose a combat style (MELEE, RANGED, MAGIC).
+  > - **Tier Filter**: Pick an item tier (e.g. NOVITE – 1, PRIMAL – 10, I know these are melee tiers but they are the same levels for range/magic).
+  > 
+  > Once your filters are set, select items from the **Available** list and click **Add** to include them in your binding preset. Use **Remove** to delete items from the **To Bind** list. Once item is binded it will be auto-removed from the list to prevent duplicates.
+
+</details>
+
+<details>
 <summary><strong>Boss Information</strong></summary>
 
 | Boss Name | Prayer Type(s) | Special Mechanics |

@@ -1,0 +1,43 @@
+{
+  "title": "BankOrganizerWithUs",
+  "description": "Advanced bank organization script that automatically sorts items into category-based tabs using dynamic classification",
+  "category": "Misc",
+  "author": "BotWithUs",
+  "version": "1.0",
+  "features": [
+    "Dynamic category classification (14 categories)",
+    "Automatic tab creation from category items",
+    "Intelligent item sorting into category tabs",
+    "Fine-tuning within categories",
+    "Configurable skip options",
+    "Single category mode",
+    "Local/remote item categories data"
+  ],
+  "requirements": [
+    "Start near a bank"
+  ],
+  "setup": [
+    "Start near a bank",
+    "Script automatically downloads item categories on first run",
+    "Configure settings via GUI"
+  ],
+  "usage": [
+    "Run script near bank",
+    "Script automatically opens bank",
+    "Let it complete the sorting process"
+  ],
+  "configuration": {
+    "delays": {
+      "itemSorting": "500-800ms",
+      "fineTuning": "600-800ms"
+    },
+    "skipOptions": [
+      "Skip Tab Deletion",
+      "Skip Tab Creation", 
+      "Skip Item Sorting",
+      "Skip Fine Tuning"
+    ]
+  },
+  "fileLocation": "C:\\Users\\{username}\\BotWithUs\\scripts\\item_categories.json",
+  "githubUrl": "https://raw.githubusercontent.com/BotWithUs/StaticResources/master/item_categories.json"
+} 
