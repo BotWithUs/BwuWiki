@@ -165,11 +165,10 @@ The script uses dynamic category classification with 14 categories:
 
 ## Tips
 
-1. **Backup your bank** before running the script for the first time
-2. **Test with a small bank** to understand the sorting behavior
-3. **Customize categories** by editing the JSON file to match your preferences
-4. **Use skip options** if you only want to perform specific operations
-5. **Monitor the console** for detailed information about the sorting process
+1. **Test with a small bank** to understand the sorting behavior
+2. **Customize categories** by editing the JSON file to match your preferences
+3. **Use skip options** if you only want to perform specific operations
+4. **Monitor the console** for detailed information about the sorting process
 
 ## Support
 
