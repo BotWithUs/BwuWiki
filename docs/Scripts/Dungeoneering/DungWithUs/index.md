@@ -19,6 +19,26 @@ import changes from './changes.json'
 > - Supports all combat styles + swaps, recommended setup is to run magic > range > melee, if using melee recommend you bring a range/mage swap, if using range recommended any melee swap
 > - Script can be reloaded mid dungeon and it will continue solving
 > - Binding equipment will be handled but binding preset creation must be done manually
+> - **Skilling Support**: Automatic resource gathering and crafting within dungeons
+> - **Resource Management**: Intelligent resource prioritization and inventory management
+
+</ContentBlock>
+
+<ContentBlock title="Requirements">
+
+> **Graphics Settings**
+> - **Draw Distance**: Medium or High (required for proper detection and navigation)
+> - **Interface Layout**: Prayer tab, equipment tab, and backpack must be visible
+> - **Party Interface**: Must be extended so all buttons are visible when open
+
+> **Skill Requirements**
+> The script will automatically check your skill levels and only gather resources you can access:
+> - **Woodcutting**: Level 1+ (Tangle gum tree) to Level 90+ (Grave creeper tree)
+> - **Fishing**: Level 1+ (Heim crabs) to Level 90+ (Cave morays)
+> - **Mining**: Level 1+ (Novite ore) to Level 90+ (Promethium ore)
+> - **Runecrafting**: Level 1+ (Air rune) to Level 77+ (Blood rune)
+> - **Divination**: Level 1+ (Pale wisp) to Level 90+ (Radiant wisp)
+> - **Crafting**: Level 1+ for basic leather items
 
 </ContentBlock>
 
@@ -54,9 +74,111 @@ import changes from './changes.json'
 </details>
 
 <details>
+<summary><strong>Skilling Settings</strong></summary>
+
+> **Resource Gathering Options**
+> - **Enable Woodcutting**: Automatically chop trees for branches
+> - **Enable Fishing**: Fish for raw food (optional, enable buy feathers)
+> - **Enable Mining**: Mine ores
+> - **Enable Divination**: Harvest wisps for energy
+> - **Enable Runecrafting**: Craft runes at altars
+> - **Enable Crafting**: Craft leather items from hides
+> - **Enable Portent Creation**: Create divination portents from energy
+
+> **Resource Selection**
+> - **Auto Select Rune**: Automatically chooses the highest level rune you can craft
+> - **Selected Rune**: Manually choose which rune to craft (if auto-select is disabled)
+> - **Tree Selection**: Choose which types of trees to chop
+> - **Fish Selection**: Choose which types of fish to catch
+> - **Ore Selection**: Choose which types of ores to mine
+> - **Wisp Selection**: Choose which types of wisps to harvest
+
+> **Advanced Options**
+> - **Kill Mobs in Resource Room**: Automatically attack monsters in resource rooms
+> - **Alternate Crafting/Runecrafting**: Switch between crafting and runecrafting on different floors
+> - **Alternate Floor Count**: Number of floors to alternate between activities
+
+</details>
+
+<details>
 <summary><strong>Boss Settings</strong></summary>
 
 > - **Nightgazer pillars**: How many pillars we will light, the more damage you have the less pillars you can light.
+
+</details>
+
+<details>
+  <summary><strong>Equipment Binding</strong></summary>
+
+  ![Equipment Binding GUI](./img/bindingSetup.png)
+
+  > In the **Equipment** tab, enable **Handle Equipment Binding** to configure your custom gear presets:
+  > - **Category Filter**: Select the equipment slot (e.g. MAIN_HAND, HEAD, etc.).
+  > - **Style Filter**: Choose a combat style (MELEE, RANGED, MAGIC).
+  > - **Tier Filter**: Pick an item tier (e.g. NOVITE – 1, PRIMAL – 10, I know these are melee tiers but they are the same levels for range/magic).
+  > 
+  > Once your filters are set, select items from the **Available** list and click **Add** to include them in your binding preset. Use **Remove** to delete items from the **To Bind** list. Once item is binded it will be auto-removed from the list to prevent duplicates.
+
+</details>
+
+<details>
+<summary><strong>Skilling Resources</strong></summary>
+
+| Skill | Resource | Level Req | Members | Notes |
+|-------|----------|-----------|---------|-------|
+| **Woodcutting** | Tangle gum tree | 1 | No | Basic branches |
+| | Seeping elm tree | 10 | No | |
+| | Blood spindle tree | 20 | No | |
+| | Utuku tree | 30 | No | |
+| | Spinebeam tree | 40 | No | |
+| | Bovistrangler tree | 50 | No | |
+| | Thigat tree | 60 | Yes | |
+| | Corpsethorn tree | 70 | Yes | |
+| | Entgallow tree | 80 | Yes | |
+| | Grave creeper tree | 90 | Yes | |
+| **Fishing** | Heim crabs | 1 | No | Requires feathers |
+| | Red-eye | 10 | No | |
+| | Dusk eels | 20 | No | |
+| | Giant flatfish | 30 | No | |
+| | Short-finned eels | 40 | No | |
+| | Web snippers | 50 | No | |
+| | Bouldabass | 60 | Yes | |
+| | Salve eels | 70 | Yes | |
+| | Blue crabs | 80 | Yes | |
+| | Cave morays | 90 | Yes | |
+| **Mining** | Novite ore | 1 | No | Basic ore |
+| | Bathus ore | 10 | No | |
+| | Marmaros ore | 20 | No | |
+| | Kratonium ore | 30 | No | |
+| | Fractite ore | 40 | No | |
+| | Zephyrium ore | 50 | No | |
+| | Argonite ore | 60 | Yes | |
+| | Katagon ore | 70 | Yes | |
+| | Gorgonite ore | 80 | Yes | |
+| | Promethium ore | 90 | Yes | |
+| **Runecrafting** | Air rune | 1 | No | Requires rune essence |
+| | Mind rune | 2 | No | |
+| | Water rune | 5 | No | |
+| | Earth rune | 9 | No | |
+| | Fire rune | 14 | No | |
+| | Body rune | 20 | No | |
+| | Cosmic rune | 27 | No | |
+| | Chaos rune | 35 | No | |
+| | Astral rune | 40 | Yes | |
+| | Nature rune | 44 | No | |
+| | Law rune | 54 | No | |
+| | Death rune | 65 | No | |
+| | Blood rune | 77 | Yes | |
+| **Divination** | Pale wisp | 1 | No | Harvest for energy |
+| | Flickering wisp | 10 | No | |
+| | Bright wisp | 20 | No | |
+| | Glowing wisp | 30 | No | |
+| | Sparkling wisp | 40 | No | |
+| | Gleaming wisp | 50 | No | |
+| | Vibrant wisp | 60 | Yes | |
+| | Lustrous wisp | 70 | Yes | |
+| | Brilliant wisp | 80 | Yes | |
+| | Radiant wisp | 90 | Yes | |
 
 </details>
 
@@ -111,6 +233,43 @@ import changes from './changes.json'
 | Yk'Lagor the Thunderous | Melee | Magical drag attack: Player attempts to move to a safe position. Earthquake attack: Player attempts to hide behind a pillar. |
 
 </details>
+
+</ContentBlock>
+
+<ContentBlock title="Skilling Features">
+
+> **Automatic Resource Management**
+> The script intelligently manages resources throughout the dungeon:
+> - **Resource Detection**: Automatically finds and prioritizes available resources based on your skill levels
+> - **Inventory Management**: Sells gathered resources when inventory is full
+> - **Resource Rotation**: Can alternate between different skilling activities across floors
+> - **Unreachable Resource Handling**: Marks resources as unreachable if they cannot be accessed
+
+> **Resource Gathering Workflow**
+> 1. **Exploration Phase**: Script explores rooms and identifies available resources
+> 2. **Resource Selection**: Chooses the best available resource based on enabled skills and level requirements
+> 3. **Gathering**: Interacts with resources and monitors gathering progress
+> 4. **Inventory Management**: Sells excess resources or drops portents when needed
+> 5. **Crafting**: Processes gathered materials into useful items (runes, leather items, portents)
+
+> **Crafting Features**
+> - **Runecrafting**: Automatically crafts the highest level rune available or selected rune
+> - **Leather Crafting**: Crafts protomastyx hide into vambraces or body armor
+> - **Portent Creation**: Creates divination portents from harvested energy
+> - **Material Purchasing**: Buys required materials (rune essence, thread, hides) from the smuggler
+
+> **Resource Prioritization**
+> The script prioritizes resources based on:
+> - **Skill Level Requirements**: Only gathers resources you can access
+> - **Resource Availability**: Focuses on resources in completed puzzle rooms
+> - **Inventory Space**: Manages inventory efficiently by selling excess items
+> - **Resource Type**: Balances between different resource categories based on settings
+
+> **Smart Navigation**
+> - **Resource Room Detection**: Automatically finds rooms with available resources
+> - **Pathfinding**: Navigates efficiently between resource rooms and the start room
+> - **Obstacle Avoidance**: Handles unreachable resources and blocked paths
+> - **Combat Integration**: Attacks monsters in resource rooms if enabled
 
 </ContentBlock>
 
