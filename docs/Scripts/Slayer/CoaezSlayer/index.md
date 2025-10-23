@@ -8,27 +8,55 @@ import React from 'react';
 import TopBanner from '@site/src/components/TopBanner';
 import ContentBlock from '@site/src/components/ContentBlock';
 import Changelog from '@site/src/components/Changelog';
-import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
 <TopBanner title="CoaezSlayer" author="coaeasy" version="v1.0.0" skill="Slayer">
 </TopBanner>
 
-:::hidden
+:::::hidden
 
 ## Cost
 
-:::
+:::::
 
 <ContentBlock title="Cost">
 
-> - 20$ / week (subject to change and not including client access)
+> - 7$ / week (not including client access)
 
 </ContentBlock>
 
-:::hidden
+<ContentBlock title="Overview">
+
+> CoaezSlayer is an all-in-one Slayer solution that supports all masters, with built-in combat, prayer, potion, looting, safety, presets.
+
+</ContentBlock>
+
+<ContentBlock title="Requirements">
+
+> - Appropriate combat presets and action bar set up in-game
+> - Area Looting enabled in-game (with "1 item opens loot window")
+> - NPC Contact on your action bar if using auto task assignment
+> - Antifire protection for dragon tasks (handled automatically if configured)
+> - War's retreat teleoport unlocked and on action bar
+
+</ContentBlock>
+
+<ContentBlock title="Setup">
+
+> 1. Select your Slayer master or configure point farming preferences.
+> 2. Choose your combat/prayer settings and potions.
+> 3. Configure loot rules (lists, thresholds, notepaper, alch).
+> 4. Enable safety teleports and set health thresholds.
+> 5. Optionally enable preset manager and assign task-specific presets.
+> 6. Configure world hopping and break schedule if needed.
+
+</ContentBlock>
+
+:::::hidden
 
 ## Combat Settings
+
+:::::
 
 ### Ability Options
 - **Use Darkness**: Automatically activates the Darkness ability when available
@@ -67,8 +95,8 @@ import changes from './changes.json'
 ### Basic Configuration
 - **Slayer Master Selection**: Choose your preferred Slayer master
 - **Point Farming**: Enables efficient Slayer point farming
-    - Speed Farming Mode: Optimizes movement for faster tasks
-    - Custom Highest Master: Select specific master for bonus point tasks
+    - Speed Farming Mode: Skips banking for faster tasks
+    - Custom Highest Master: Select specific master for bonus point tasks as by default the master is calculated based on slayer/combat level
 
 ### Task Management
 - **NPC Contact**: Uses NPC Contact spell to get new tasks (must be on action bar)
@@ -80,15 +108,13 @@ import changes from './changes.json'
 - **Low Health Teleport**: Automatically teleports when health drops below set percentage
 - **Teleport Options**:
     - War's Retreat: Uses War's Retreat teleport
-    - Archaeology Book: Uses Archaeology teleport
-    - Max Guild: Uses Max Guild teleport
 
 ## Loot Settings
 
 ### Area Looting
 - **Enable Area Loot**: Automatically loots items in area
 - **Loot Range**: Sets distance for area looting (tiles)
-- **Loot Delay**: Delay between looting items
+- **Loot Delay**: Delay between looting items (milliseconds)
 
 ### Loot Options
 - **Loot All**: Picks up all items except blacklisted ones
@@ -102,11 +128,6 @@ import changes from './changes.json'
 - **Notepaper Items**: Items to use notepaper on
 - **Alchemy Items**: Items to high alchemize
 - **Blacklist**: Items to never pick up
-
-## Tips
-- Ensure area looting is enabled in-game settings with 1 item opens loot inventory
-- For value-based looting, configure your preferred value threshold in the game settings
-- Bank presets should be properly configured in-game before use
 
 ## Extra Features
 
@@ -131,8 +152,10 @@ import changes from './changes.json'
 - **Task Presets**: Configure specific presets for different tasks
 
 ## Tips
-- Ensure area looting is enabled in-game settings
+- Ensure area looting is enabled in-game settings with 1 item opens loot inventory
+- For value-based looting, configure your preferred value threshold in the game settings
+- Bank presets should be properly configured in-game before use
 - NPC Contact must be on action bar for automatic task getting
 - For dragon tasks, antifire protection is automatically enabled
-- Prayer switching works best with appropriate prayers unlocked
-- Bank presets should be properly configured in-game before use
+
+<Changelog changes={changes} />
