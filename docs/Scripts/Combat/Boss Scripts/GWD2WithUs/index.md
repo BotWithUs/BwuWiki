@@ -1,8 +1,8 @@
 ---
-title: GWD2WITHUS
+title: GWD2WithUs
 description: Kills Gregorovic, Vindicta, Helwyr, Twin Furies.
 # Slug is the URL path for this page.
-slug: /GWD2WITHUS
+slug: /GWD2WithUs
 ---
 
 import React from 'react';
@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="GWD2WITHUS " version="v1.0" author="Akisame" skill="Necromancy">
+<TopBanner title="GWD2WithUs " version="v1.0" author="Akisame" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -32,8 +32,6 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Features">
-
-> - **Mechanics**: All mechanics are handled + all 3 Paths are avaiable (Darkness Path, Acid Path, Minions Path), You can also setup a minimum enrage before starting to handle Eggs and Darkness mechanics in P3/P4
 
 > - **Hopping Worlds System**: You can setup a timer to hop worlds every X minutes, you also have the possibility to choose your region
 
