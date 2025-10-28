@@ -22,7 +22,7 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - **5 USD / 2 days** (client access not included)
+> - **5 USD / weekly** (client access not included)
 </ContentBlock>
 
 :::hidden
