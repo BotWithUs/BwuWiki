@@ -18,7 +18,7 @@ import changes from './changes.json'
 
 > - Supports all combat styles + swaps, recommended setup is to run magic > range > melee, if using melee recommend you bring a range/mage swap, if using range recommended any melee swap
 > - Script can be reloaded mid dungeon and it will continue solving
-> - Binding equipment will be handled but binding preset creation must be done manually
+> - **Intelligent Equipment Upgrades**: Automatic equipment binding and upgrading with pre-defined combat loadouts
 > - **Skilling Support**: Automatic resource gathering and crafting within dungeons
 > - **Resource Management**: Intelligent resource prioritization and inventory management
 
@@ -30,7 +30,7 @@ import changes from './changes.json'
 > - **Draw Distance**: Medium or High (required for proper detection and navigation)
 > - **Interface Layout**: Prayer tab, equipment tab, and backpack must be visible
 > - **Party Interface**: Must be extended so all buttons are visible when open
-
+> 
 > **Skill Requirements**
 > The script will automatically check your skill levels and only gather resources you can access:
 > - **Woodcutting**: Level 1+ (Tangle gum tree) to Level 90+ (Grave creeper tree)
@@ -62,6 +62,7 @@ import changes from './changes.json'
 > - **Prestige enabled**: When enabled we will prestige once the current progress reaches the set floor
 
 </details>
+
 <details>
 <summary><strong>Settings Tab</strong></summary>
 
@@ -84,7 +85,7 @@ import changes from './changes.json'
 > - **Enable Runecrafting**: Craft runes at altars
 > - **Enable Crafting**: Craft leather items from hides
 > - **Enable Portent Creation**: Create divination portents from energy
-
+> 
 > **Resource Selection**
 > - **Auto Select Rune**: Automatically chooses the highest level rune you can craft
 > - **Selected Rune**: Manually choose which rune to craft (if auto-select is disabled)
@@ -92,7 +93,7 @@ import changes from './changes.json'
 > - **Fish Selection**: Choose which types of fish to catch
 > - **Ore Selection**: Choose which types of ores to mine
 > - **Wisp Selection**: Choose which types of wisps to harvest
-
+> 
 > **Advanced Options**
 > - **Kill Mobs in Resource Room**: Automatically attack monsters in resource rooms
 > - **Alternate Crafting/Runecrafting**: Switch between crafting and runecrafting on different floors
@@ -108,16 +109,44 @@ import changes from './changes.json'
 </details>
 
 <details>
-  <summary><strong>Equipment Binding</strong></summary>
+<summary><strong>Equipment Binding & Upgrade System</strong></summary>
 
-  ![Equipment Binding GUI](./img/bindingSetup.png)
+![Equipment Binding GUI](./img/bindingSetup.png)
 
-  > In the **Equipment** tab, enable **Handle Equipment Binding** to configure your custom gear presets:
-  > - **Category Filter**: Select the equipment slot (e.g. MAIN_HAND, HEAD, etc.).
-  > - **Style Filter**: Choose a combat style (MELEE, RANGED, MAGIC).
-  > - **Tier Filter**: Pick an item tier (e.g. NOVITE – 1, PRIMAL – 10, I know these are melee tiers but they are the same levels for range/magic).
-  > 
-  > Once your filters are set, select items from the **Available** list and click **Add** to include them in your binding preset. Use **Remove** to delete items from the **To Bind** list. Once item is binded it will be auto-removed from the list to prevent duplicates.
+> **Pre-defined Combat Loadouts**
+> 
+> DungWithUs now features an intelligent equipment upgrade system with **pre-defined loadout paths**:
+> 
+> | Loadout | Combat Style | Equipment Focus |
+> |---------|-------------|-----------------|
+> | **1** | **Magic** | Wands + Orbs |
+> | **2** | **Melee** | 2-Handed Weapons |
+> | **3** | **Ranged** | Shortbows + Arrows |
+> 
+> **How It Works:**
+> - **Automatic Path Selection**: Choose your preferred combat style and the script configures the appropriate loadout
+> - **Smart Equipment Detection**: Scans bound items, backpack, and ground items for upgrades
+> - **Tier-Based Upgrades**: Automatically identifies and equips higher tier equipment (Novite → Promethium)
+> - **Intelligent Binding**: Only binds equipment you can use based on your combat levels
+> - **Lower Tier Cleanup**: Automatically trashes lower tier equipment when better alternatives are available
+> 
+> **Configuration:**
+> 1. Navigate to the **Equipment Binding** tab
+> 2. Enable **"Enable Equipment Upgrades"**
+> 3. Select your combat path:
+>    - **Magic Path**: Wands + Orbs for magical combat
+>    - **Melee Path**: 2-handed weapons for melee combat
+>    - **Ranged Path**: Shortbows + Arrows for ranged combat
+>    - This is also how loadout should be setup 1 2 and 3 respectively you can however add 2h sword to range loadout for bosses that need swaps
+> 
+> **Equipment Tiers (All Paths):**
+> Novite (Lv1) → Bathus (Lv10) → Marmaros (Lv20) → Kratonium (Lv30) → Fractite (Lv40) → Zephyrium (Lv50) → Argonite (Lv60) → Katagon (Lv70) → Gorgonite (Lv80) → Promethium (Lv90)
+> 
+> **Notes:**
+> - Only one combat path can be active at a time but you can manually add type of weapons to it
+> - System automatically checks level requirements before binding
+> - Members-only tiers (60+) are only available to members
+> - Equipment upgrades happen automatically during dungeon exploration, we will initally cache the items and only check again once new higher tier item is bound and we have levels to use it
 
 </details>
 
@@ -183,20 +212,6 @@ import changes from './changes.json'
 </details>
 
 <details>
-  <summary><strong>Equipment Binding</strong></summary>
-
-  ![Equipment Binding GUI](./img/bindingSetup.png)
-
-  > In the **Equipment** tab, enable **Handle Equipment Binding** to configure your custom gear presets:
-  > - **Category Filter**: Select the equipment slot (e.g. MAIN_HAND, HEAD, etc.).
-  > - **Style Filter**: Choose a combat style (MELEE, RANGED, MAGIC).
-  > - **Tier Filter**: Pick an item tier (e.g. NOVITE – 1, PRIMAL – 10, I know these are melee tiers but they are the same levels for range/magic).
-  > 
-  > Once your filters are set, select items from the **Available** list and click **Add** to include them in your binding preset. Use **Remove** to delete items from the **To Bind** list. Once item is binded it will be auto-removed from the list to prevent duplicates.
-
-</details>
-
-<details>
 <summary><strong>Boss Information</strong></summary>
 
 | Boss Name | Prayer Type(s) | Special Mechanics |
@@ -244,27 +259,27 @@ import changes from './changes.json'
 > - **Inventory Management**: Sells gathered resources when inventory is full
 > - **Resource Rotation**: Can alternate between different skilling activities across floors
 > - **Unreachable Resource Handling**: Marks resources as unreachable if they cannot be accessed
-
+> 
 > **Resource Gathering Workflow**
 > 1. **Exploration Phase**: Script explores rooms and identifies available resources
 > 2. **Resource Selection**: Chooses the best available resource based on enabled skills and level requirements
 > 3. **Gathering**: Interacts with resources and monitors gathering progress
 > 4. **Inventory Management**: Sells excess resources or drops portents when needed
 > 5. **Crafting**: Processes gathered materials into useful items (runes, leather items, portents)
-
+> 
 > **Crafting Features**
 > - **Runecrafting**: Automatically crafts the highest level rune available or selected rune
 > - **Leather Crafting**: Crafts protomastyx hide into vambraces or body armor
 > - **Portent Creation**: Creates divination portents from harvested energy
 > - **Material Purchasing**: Buys required materials (rune essence, thread, hides) from the smuggler
-
+> 
 > **Resource Prioritization**
 > The script prioritizes resources based on:
 > - **Skill Level Requirements**: Only gathers resources you can access
 > - **Resource Availability**: Focuses on resources in completed puzzle rooms
 > - **Inventory Space**: Manages inventory efficiently by selling excess items
 > - **Resource Type**: Balances between different resource categories based on settings
-
+> 
 > **Smart Navigation**
 > - **Resource Room Detection**: Automatically finds rooms with available resources
 > - **Pathfinding**: Navigates efficiently between resource rooms and the start room
@@ -274,11 +289,7 @@ import changes from './changes.json'
 </ContentBlock>
 
 :::hidden
-
 ## Changelog
-
 :::
 
-<Changelog changes={changes}>
-
-</Changelog> 
+<Changelog changes={changes}></Changelog>
