@@ -85,9 +85,11 @@ import changes from './changes.json'
 > - Igneous Kal-Mor
 > 
 > **Start**
-> - Community button visible on the ribbon bar, group interface separated.
-> - Make sure the initial group is created and set to Liberation of Mazcab raid regardless if starting at instance or not.
-> - Kill restart will work only if you have looted the boss already and are going for the pet otherwise the script will stop after kill allowing you to loot the boss. Group will be re-created in the case that you have already completed regular loot and going for the pet.
+> - The Community button should be visible on the ribbon bar, and the Group interface should be displayed separately.
+> - Before the script starts, you must always create and set the initial group to the Liberation of Mazcab raid whether you are starting near an instance or in bank.
+> - The kill restart function will only activate if the boss has already been looted and the user is farming for the pet.
+> - If the boss hasn’t been looted yet, the script will stop after the kill, allowing the player to manually loot the boss.
+> - If the player has already completed the normal loot and is now going for the pet, the group will be automatically re-created after each kill.
 >
     </ContentBlock>
 
