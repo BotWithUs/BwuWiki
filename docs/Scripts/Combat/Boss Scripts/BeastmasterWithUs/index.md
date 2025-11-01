@@ -65,7 +65,7 @@ import changes from './changes.json'
 > - Deflect prayers and Soul Split (curses)
 > - War's Retreat or Max Guild teleport
 > - Double Surge and Dive (requires Mobile perk or Shadow's Grace relic)
-> - All necromancy abilities (not a hard requirement script adapts to available abilities but all defensives are required)
+> - All necromancy abilities
 > - Defensive abilities (Devotion,Reflect,Debilitate,Barricade,Darkness,Anticipation)
 > - Double surge and Dive with mobile perk or Shadow's grace relic
 >
@@ -144,8 +144,7 @@ import changes from './changes.json'
 
 > **T90 Gear Setup**
 
-![T90 Gear Example 1](GearT90.png)
-![T90 Gear Example 2](GearT90-2.png)
+![T90 Gear](GearT90-2.png)
 
 > - If not using penance powder bring at least 5 restore flasks
 
