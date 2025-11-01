@@ -86,8 +86,8 @@ import changes from './changes.json'
 > 
 > **Start**
 > - Community button visible on the ribbon bar, group interface separated.
-> - Make sure the inital group is create and set to Liberation of Mazcab raid regardless if starting at instance or not.
-> - Kill restart will work only if you have looted the boss already and are going for the pet, and you have restart enabled on GUI. Group will be re-created in that case.
+> - Make sure the initial group is created and set to Liberation of Mazcab raid regardless if starting at instance or not.
+> - Kill restart will work only if you have looted the boss already and are going for the pet otherwise the script will stop after kill allowing you to loot the boss. Group will be re-created in the case that you have already completed regular loot and going for the pet.
 >
     </ContentBlock>
 
