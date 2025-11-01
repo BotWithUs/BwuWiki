@@ -85,6 +85,7 @@ import changes from './changes.json'
 > - Igneous Kal-Mor
 > 
 > **Start**
+> - Community button visible on the ribbon bar, group interface separated.
 > - Make sure the inital group is create and set to Liberation of Mazcab raid regardless if starting at instance or not.
 > - Kill restart will work only if you have looted the boss already and are going for the pet, and you have restart enabled on GUI. Group will be re-created in that case.
 >
