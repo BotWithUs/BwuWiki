@@ -137,15 +137,17 @@ import changes from './changes.json'
 
 > **T95 Gear Setup**
 
-![T95 Gear](GearT95.png)
+![T95 Gear Example 1](GearT95.png)
+![T95 Gear Example 2](GearT95-2.png)
 
 > - If not using penance powder bring at least 3 restore flasks
 
 > **T90 Gear Setup**
 
-![T90 Gear](GearT90.png)
+![T90 Gear Example 1](GearT90.png)
+![T90 Gear Example 2](GearT90-2.png)
 
-> - If not using penance powder bring at least 3 restore flasks
+> - If not using penance powder bring at least 5 restore flasks
 
 > **Pre-Fight Inventory**
 
