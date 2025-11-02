@@ -100,11 +100,11 @@ import changes from './changes.json'
 > - Essence of Finality
 > - Scripture (Ful/Wen/Jas/Grimoire)
 > - Excalibur
-> - 
 > **Abilities & Spells**
 > - All Necromancy abilities unlocked
 > - Vulnerability bombs (add to action bar, option 1: Default)
->
+> **Familiar**
+> - Hellhound
 > **Consumables**
 > - Weapon Poison+++
 > - Powder of Protection
@@ -190,7 +190,7 @@ import changes from './changes.json'
 >
 > ![Familiar Settings](settings-familiar.png)
 >
-> Select familiar type and enable scroll usage for additional DPS support (recommended ripper demon).
+> Select familiar type and enable scroll usage for additional DPS support (recommended hellhound).
 
 > **Prayer Settings**
 >
