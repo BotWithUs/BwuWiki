@@ -34,7 +34,7 @@ import changes from './changes.json'
 <ContentBlock title="Features">
 
 > - **Combat Style**: Necromancy support with T90/T95
-> - **Banking Options**: War's Retreat or Max Guild banking with smart checkpoint support
+> - **Banking Options**: War's Retreat or Max Guild banking
 > - **Prayers**: Curse prayer support (Sorrow T95 / Ruination T99)
 > - **Scripture Support**: Ful, Wen, Jas, Grimoire - automatic refilling
 > - **Aura System**: Queue-based aura rotation with automatic reset support
