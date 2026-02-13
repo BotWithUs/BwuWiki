@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2025-11-27",
+        "title": "v1.0.0",
+        "items": [
+            "Release",
+            "Added: Full contract automation (accept, complete, return)",
+            "Added: All 4 locations supported (Draynor, Varrock, Lumbridge, Edgeville)",
+            "Added: Beast of Burden familiar support with auto-renewal",
+            "Added: Multi-floor navigation with staircase/ladder detection",
+            "Added: Smart material management across backpack and familiar"
+        ]
+    }
+]
