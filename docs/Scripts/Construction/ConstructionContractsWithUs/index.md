@@ -35,7 +35,7 @@ import changes from './changes.json'
 
 <ContentBlock title="Cost">
 
-> - FREE / month (not including client access)
+> - $5.00 / week (not including client access)
 
 </ContentBlock>
 

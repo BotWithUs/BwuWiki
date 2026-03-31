@@ -12,7 +12,7 @@ import Changelog from '@site/src/components/Changelog';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json'
 
-<TopBanner title="EliteTelos 4K" version="v1.1.2" author="Clarity & Gibson" skill="Necromancy">
+<TopBanner title="EliteTelos 4K" version="v1.1.2" author="Gibson & Clarity" skill="Necromancy">
 </TopBanner>
 
 :::hidden
@@ -22,11 +22,13 @@ import changes from './changes.json'
 :::
 
 <ContentBlock title="Cost">
-> - 120 marketplace coins / month (not including client access).
+> - Two Days: $12.00
+> - Weekly: $30.00
+> - Monthly: $110.00
 :::danger Limitations
 - Available user slots are limited, given on a first come, first served basis.
 - This script has **very high** requirements, ensure you meet them before purchasing.
-   - Contact **Clarity** or **Gibson** if you have questions about whether your account(s) meet the criteria.
+   - Contact **Gibson** if you have questions about whether your account(s) meet the criteria.
 - Deaths are still possible.
 :::
 </ContentBlock>
@@ -52,8 +54,7 @@ import changes from './changes.json'
 >    - Adds divine charges to your charge pack.
 >    - Places runes inside your rune pouches.
 >    - Resets sign of life cooldown via reset scrolls.
->    - Renews familiar and refills familiar special scrolls.
->    - Resets aura via aura resets, supporting all reset tiers, prioritizing lower tier.
+>    - Renews Hellhound familiar.
 > - Professional UI (see screenshots below) which contains the following:
 >    - Fully customizable settings.
 >    - Statistics display showing kills, killstreak, kills per hour, average killtime, fastest killtime, and lifetime kills.
@@ -98,7 +99,6 @@ import changes from './changes.json'
 > - Soulbound Lantern (Precise 6 + Aftershock 1) (PERKS REQUIRED)
 > - Zemouregal's Nexus > Deathwarden Nexus (Make sure you have 25k of each rune and Ectoplasm)
 >   - You may experience deaths on Phase 5 at high enrage if no Zemouregal's Nexus and no Malletops in PoF.
-> - Equilibrium Aura unlocked
 > - Underworld Grimoire 4 > Scripture of Amascut
 
 > **Inventory**
@@ -112,8 +112,7 @@ import changes from './changes.json'
 > - Super restore flask (6)
 > - Super prayer renewal potion (6)
 > - Expensive spices
-> - Binding contract (Blood Reaver)
-> - x500 Blood Reaver scroll (Blood Siphon)
+> - Hellhound Pouch
 > - Augmented Deathwarden robe bottom (t70+) (Turtling 4 | Clearheaded 4) (REQUIRED)
 > - Ring of Death
 > - Grasping Rune Pouch (Red) (Death | Chaos | Law Cosmic)
@@ -158,7 +157,6 @@ import changes from './changes.json'
 > - Death Essence (Omni-Guard Special Attack)
 > - Darkness 
 > - Invoke Death
-> - Blood Siphon
 > - Threads of Fate
 > - Life Transfer
 > - Deathguard Special Attack (in EoF)
@@ -177,10 +175,8 @@ import changes from './changes.json'
 > - Anticipation
 > - Invoke Lord of Bones (optional if not 100% accurate)
 > - Vengeance
-> - Spellbook Swap (Lunar) (if on Ancients)
 > - Surge
 > - Dive
-> - Prism of Restoration (if using)
 > - Vulnerability Bomb (default mode)
 > - Blue Blubber Jellyfish
 > - Saradomin Brew Flask (6) or Super or Guthix Rest
@@ -195,7 +191,11 @@ import changes from './changes.json'
 > - Make sure you have auto-retaliate turned off
 > - Make sure ability queuing is turned off
 > - Make sure you do NOT have any custom ability animation overrides active
+> - Make sure you do NOT have any cosmetic overrides on Death Skulls
 > - Make sure Colorblind Mode is turned ON (toggle by right-clicking Telos platform entrance)
+> - Make sure Interface Scaling is set to 100%
+> - Camp Lunar Spellbook (no spellbook swapping required)
+> - **God Book Setting:** Only tick this option if using Scripture of Amascut. If using Underworld Grimoire, leave it unticked.
 
 </ContentBlock>
 <ContentBlock title="Quick Prayers">
@@ -218,7 +218,9 @@ import changes from './changes.json'
 
 ![Action Bar](inv1.png)
 
-- **Reaver scroll autofire set to 6-8 depending on enrage.**
+:::warning Outdated Image
+The preset image above shows Blood Reaver. Use **Hellhound** instead - no scrolls required.
+:::
 
 </details>
 
@@ -261,8 +263,8 @@ import changes from './changes.json'
 > **Q7: Error related to missing runes or runes not being used.**  
 > **Solution:** Make sure the Grasping Rune Pouches contain the required runes and that you have at least 16,000 of each in them to ensure an ample amount of time for runs. Errors and deaths can also occur if you accidentally deplete any essential runes mid-run.
 
-> **Q8: Bot doesn’t seem to be summoning Blood Reaver or using Blood Siphon.**  
-> **Solution:** Ensure that both Binding Contracts and Blood Reaver scrolls are available in your inventory.
+> **Q8: Bot doesn't seem to be summoning my familiar.**
+> **Solution:** Ensure you have Hellhound pouches in your inventory. No scrolls are required for Hellhound.
 
 > **Q9: Defensive abilities seem mistimed, leading to more deaths.**  
 > **Solution:** Double-check that the Anachronia Totem Perk Armored is active. This boosts Barricade duration, essential for tanking Telos’s hits. Also, confirm that all aforementioned defensive abilities are on your action bar.
