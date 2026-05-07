@@ -97,7 +97,7 @@ These aren't auto-rejected by tooling, but reviewers bounce on them constantly:
 - It pauses or logs out gracefully on long disconnects — not spam-clicking a logged-out client.
 - It doesn't print confidential info to the console (player names, paths, debug dumps).
 - You've tested it on at least one fresh account — your dev account often has setup that hides bugs.
-- You've read the [BotWithUs rules](../../Rules/) so your script doesn't violate any (e.g., no real-world trading flows).
+- You've read the [BotWithUs Community Rules](../../Rules/Community%20Rules.md) so your script doesn't violate any (e.g., no real-world trading flows).
 
 </ContentBlock>
 
