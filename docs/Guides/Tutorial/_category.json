@@ -1,0 +1,8 @@
+{
+  "label": "Zero-to-Script Tutorial",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A start-from-nothing walkthrough: install BotWithUs, launch your first session, write your first script, and read game data. No coding experience required."
+  }
+}
