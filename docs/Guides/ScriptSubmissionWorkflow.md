@@ -1,8 +1,18 @@
-# Script Submission Workflow
+---
+title: Script Submission Workflow
+description: How to submit changes to your scripts using feature branches and squashed commits — GitHub Desktop and Git CLI walkthroughs.
+---
+
+import React from 'react';
+import ContentBlock from '@site/src/components/ContentBlock';
+
+<ContentBlock title="Overview">
 
 This document outlines the process for submitting changes to your scripts using feature branches and squashing commits. This ensures that your script reviewers can review all changes in a single, consolidated commit, improving the review process.
 
-## Step-by-Step Workflow using Github Desktop (Recommended)
+</ContentBlock>
+
+<ContentBlock title="Step-by-Step Workflow using Github Desktop (Recommended)">
 
 ### Clone the Repository
 1. Open **GitHub Desktop**.
@@ -64,9 +74,9 @@ Following this workflow helps ensure that your reviewers can see all your change
 
 If you have any questions or run into any issues, please reach out!
 
----
+</ContentBlock>
 
-## Step-by-Step Workflow using Git CLI
+<ContentBlock title="Step-by-Step Workflow using Git CLI">
 
 ### Clone the Repository
 If you haven't already cloned your repository, you can do so using the following command:
@@ -153,9 +163,9 @@ git branch -d feature/your-feature-name
 git push origin --delete feature/your-feature-name
 ```
 
----
+</ContentBlock>
 
-## Summary of Commands
+<ContentBlock title="Summary of Commands">
 
 1. Create and switch to a new branch:
    ```bash
@@ -192,8 +202,12 @@ git push origin --delete feature/your-feature-name
    git push origin --delete feature/your-feature-name
    ```
 
----
+</ContentBlock>
+
+<ContentBlock title="Wrap-up">
 
 Following this workflow helps ensure that your reviewers can see all your changes in a single commit, making the review process smoother and more efficient.
 
 If you have any questions or run into any issues, please reach out!
+
+</ContentBlock>
